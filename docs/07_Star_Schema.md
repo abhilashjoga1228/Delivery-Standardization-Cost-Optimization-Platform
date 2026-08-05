@@ -69,7 +69,7 @@ Area Sales Manager
 Market Development Manager
   ↓
 Customer
----
+```
 
 ## 5. Fact Table Definitions
 
