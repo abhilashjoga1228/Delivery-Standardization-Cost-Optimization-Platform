@@ -224,4 +224,3 @@ The project will deliver:
 - Executive Dashboard
 - Operational Dashboard
 - GitHub Portfolio Repository
-- 
