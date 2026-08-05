@@ -48,7 +48,6 @@ The design uses shared dimensions and multiple fact tables at clearly defined gr
 | DimSalesOrganization | Region, Market Unit, Distribution Center, and Sales Territory hierarchy |
 | DimMissedReason | Missed-delivery reason, reason category, and controllability |
 | DimFrequencyMatrix | Customer category and four-week case-volume thresholds used for recommendations |
-
 ```
 
 ## 4. Business Hierarchies
