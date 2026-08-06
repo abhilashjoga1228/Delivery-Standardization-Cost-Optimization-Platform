@@ -1,0 +1,49 @@
+sales_organization_id,region_id,region_name,market_unit_id,market_unit_name,distribution_center_id,distribution_center_name,sales_territory_id,sales_territory_name,distribution_center_latitude,distribution_center_longitude,active_flag
+SO0001,R01,West Region,MU0101,Mountain Market Unit,DC010101,Salt Lake DC,T0001,Salt Lake DC Territory 1,40.7608,-111.891,True
+SO0002,R01,West Region,MU0101,Mountain Market Unit,DC010101,Salt Lake DC,T0002,Salt Lake DC Territory 2,40.7608,-111.891,True
+SO0003,R01,West Region,MU0101,Mountain Market Unit,DC010101,Salt Lake DC,T0003,Salt Lake DC Territory 3,40.7608,-111.891,True
+SO0004,R01,West Region,MU0101,Mountain Market Unit,DC010101,Salt Lake DC,T0004,Salt Lake DC Territory 4,40.7608,-111.891,True
+SO0005,R01,West Region,MU0101,Mountain Market Unit,DC010102,Denver DC,T0005,Denver DC Territory 1,39.7392,-104.9903,True
+SO0006,R01,West Region,MU0101,Mountain Market Unit,DC010102,Denver DC,T0006,Denver DC Territory 2,39.7392,-104.9903,True
+SO0007,R01,West Region,MU0101,Mountain Market Unit,DC010102,Denver DC,T0007,Denver DC Territory 3,39.7392,-104.9903,True
+SO0008,R01,West Region,MU0101,Mountain Market Unit,DC010102,Denver DC,T0008,Denver DC Territory 4,39.7392,-104.9903,True
+SO0009,R01,West Region,MU0102,Pacific Market Unit,DC010201,Seattle DC,T0009,Seattle DC Territory 1,47.6062,-122.3321,True
+SO0010,R01,West Region,MU0102,Pacific Market Unit,DC010201,Seattle DC,T0010,Seattle DC Territory 2,47.6062,-122.3321,True
+SO0011,R01,West Region,MU0102,Pacific Market Unit,DC010201,Seattle DC,T0011,Seattle DC Territory 3,47.6062,-122.3321,True
+SO0012,R01,West Region,MU0102,Pacific Market Unit,DC010201,Seattle DC,T0012,Seattle DC Territory 4,47.6062,-122.3321,True
+SO0013,R01,West Region,MU0102,Pacific Market Unit,DC010202,Portland DC,T0013,Portland DC Territory 1,45.5152,-122.6784,True
+SO0014,R01,West Region,MU0102,Pacific Market Unit,DC010202,Portland DC,T0014,Portland DC Territory 2,45.5152,-122.6784,True
+SO0015,R01,West Region,MU0102,Pacific Market Unit,DC010202,Portland DC,T0015,Portland DC Territory 3,45.5152,-122.6784,True
+SO0016,R01,West Region,MU0102,Pacific Market Unit,DC010202,Portland DC,T0016,Portland DC Territory 4,45.5152,-122.6784,True
+SO0017,R02,Central Region,MU0201,Midwest Market Unit,DC020101,Chicago DC,T0017,Chicago DC Territory 1,41.8781,-87.6298,True
+SO0018,R02,Central Region,MU0201,Midwest Market Unit,DC020101,Chicago DC,T0018,Chicago DC Territory 2,41.8781,-87.6298,True
+SO0019,R02,Central Region,MU0201,Midwest Market Unit,DC020101,Chicago DC,T0019,Chicago DC Territory 3,41.8781,-87.6298,True
+SO0020,R02,Central Region,MU0201,Midwest Market Unit,DC020101,Chicago DC,T0020,Chicago DC Territory 4,41.8781,-87.6298,True
+SO0021,R02,Central Region,MU0201,Midwest Market Unit,DC020102,Detroit DC,T0021,Detroit DC Territory 1,42.3314,-83.0458,True
+SO0022,R02,Central Region,MU0201,Midwest Market Unit,DC020102,Detroit DC,T0022,Detroit DC Territory 2,42.3314,-83.0458,True
+SO0023,R02,Central Region,MU0201,Midwest Market Unit,DC020102,Detroit DC,T0023,Detroit DC Territory 3,42.3314,-83.0458,True
+SO0024,R02,Central Region,MU0201,Midwest Market Unit,DC020102,Detroit DC,T0024,Detroit DC Territory 4,42.3314,-83.0458,True
+SO0025,R02,Central Region,MU0202,Southern Plains Market Unit,DC020201,Dallas DC,T0025,Dallas DC Territory 1,32.7767,-96.797,True
+SO0026,R02,Central Region,MU0202,Southern Plains Market Unit,DC020201,Dallas DC,T0026,Dallas DC Territory 2,32.7767,-96.797,True
+SO0027,R02,Central Region,MU0202,Southern Plains Market Unit,DC020201,Dallas DC,T0027,Dallas DC Territory 3,32.7767,-96.797,True
+SO0028,R02,Central Region,MU0202,Southern Plains Market Unit,DC020201,Dallas DC,T0028,Dallas DC Territory 4,32.7767,-96.797,True
+SO0029,R02,Central Region,MU0202,Southern Plains Market Unit,DC020202,Oklahoma City DC,T0029,Oklahoma City DC Territory 1,35.4676,-97.5164,True
+SO0030,R02,Central Region,MU0202,Southern Plains Market Unit,DC020202,Oklahoma City DC,T0030,Oklahoma City DC Territory 2,35.4676,-97.5164,True
+SO0031,R02,Central Region,MU0202,Southern Plains Market Unit,DC020202,Oklahoma City DC,T0031,Oklahoma City DC Territory 3,35.4676,-97.5164,True
+SO0032,R02,Central Region,MU0202,Southern Plains Market Unit,DC020202,Oklahoma City DC,T0032,Oklahoma City DC Territory 4,35.4676,-97.5164,True
+SO0033,R03,East Region,MU0301,Northeast Market Unit,DC030101,Boston DC,T0033,Boston DC Territory 1,42.3601,-71.0589,True
+SO0034,R03,East Region,MU0301,Northeast Market Unit,DC030101,Boston DC,T0034,Boston DC Territory 2,42.3601,-71.0589,True
+SO0035,R03,East Region,MU0301,Northeast Market Unit,DC030101,Boston DC,T0035,Boston DC Territory 3,42.3601,-71.0589,True
+SO0036,R03,East Region,MU0301,Northeast Market Unit,DC030101,Boston DC,T0036,Boston DC Territory 4,42.3601,-71.0589,True
+SO0037,R03,East Region,MU0301,Northeast Market Unit,DC030102,Newark DC,T0037,Newark DC Territory 1,40.7357,-74.1724,True
+SO0038,R03,East Region,MU0301,Northeast Market Unit,DC030102,Newark DC,T0038,Newark DC Territory 2,40.7357,-74.1724,True
+SO0039,R03,East Region,MU0301,Northeast Market Unit,DC030102,Newark DC,T0039,Newark DC Territory 3,40.7357,-74.1724,True
+SO0040,R03,East Region,MU0301,Northeast Market Unit,DC030102,Newark DC,T0040,Newark DC Territory 4,40.7357,-74.1724,True
+SO0041,R03,East Region,MU0302,Southeast Market Unit,DC030201,Atlanta DC,T0041,Atlanta DC Territory 1,33.749,-84.388,True
+SO0042,R03,East Region,MU0302,Southeast Market Unit,DC030201,Atlanta DC,T0042,Atlanta DC Territory 2,33.749,-84.388,True
+SO0043,R03,East Region,MU0302,Southeast Market Unit,DC030201,Atlanta DC,T0043,Atlanta DC Territory 3,33.749,-84.388,True
+SO0044,R03,East Region,MU0302,Southeast Market Unit,DC030201,Atlanta DC,T0044,Atlanta DC Territory 4,33.749,-84.388,True
+SO0045,R03,East Region,MU0302,Southeast Market Unit,DC030202,Charlotte DC,T0045,Charlotte DC Territory 1,35.2271,-80.8431,True
+SO0046,R03,East Region,MU0302,Southeast Market Unit,DC030202,Charlotte DC,T0046,Charlotte DC Territory 2,35.2271,-80.8431,True
+SO0047,R03,East Region,MU0302,Southeast Market Unit,DC030202,Charlotte DC,T0047,Charlotte DC Territory 3,35.2271,-80.8431,True
+SO0048,R03,East Region,MU0302,Southeast Market Unit,DC030202,Charlotte DC,T0048,Charlotte DC Territory 4,35.2271,-80.8431,True

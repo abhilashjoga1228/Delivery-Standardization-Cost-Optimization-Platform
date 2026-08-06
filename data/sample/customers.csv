@@ -1,0 +1,501 @@
+customer_id,customer_name,customer_category,sales_organization_id,area_sales_manager_id,area_sales_manager_name,market_development_manager_id,market_development_manager_name,current_weekly_frequency,customer_latitude,customer_longitude,customer_status,active_flag
+CUST000001,Corner Stop 0001,Restaurant,SO0041,ASM011,Area Sales Manager 011,MDM002,Market Development Manager 002,3,33.936613,-84.152859,Active,True
+CUST000002,Pioneer Retail 0002,Retail,SO0002,ASM001,Area Sales Manager 001,MDM003,Market Development Manager 003,5,40.79276,-111.970061,Active,True
+CUST000003,Metro Foods 0003,Retail,SO0016,ASM005,Area Sales Manager 005,MDM004,Market Development Manager 004,3,45.735049,-122.483952,Active,True
+CUST000004,Corner Stop 0004,Convenience Retail,SO0009,ASM003,Area Sales Manager 003,MDM005,Market Development Manager 005,4,47.723077,-122.546923,Active,True
+CUST000005,Mountain Club 0005,Convenience Retail,SO0044,ASM012,Area Sales Manager 012,MDM006,Market Development Manager 006,1,33.968613,-84.400481,Active,True
+CUST000006,Central Dining 0006,Restaurant,SO0006,ASM002,Area Sales Manager 002,MDM007,Market Development Manager 007,2,40.044835,-105.028932,Active,True
+CUST000007,Summit Market 0007,Restaurant,SO0028,ASM008,Area Sales Manager 008,MDM008,Market Development Manager 008,2,32.909777,-96.705639,Active,True
+CUST000008,Corner Stop 0008,Retail,SO0002,ASM001,Area Sales Manager 001,MDM009,Market Development Manager 009,3,41.296212,-111.992604,Active,True
+CUST000009,Metro Foods 0009,Retail,SO0014,ASM004,Area Sales Manager 004,MDM010,Market Development Manager 010,2,45.669195,-122.396157,Active,True
+CUST000010,Central Dining 0010,Retail,SO0033,ASM009,Area Sales Manager 009,MDM011,Market Development Manager 011,3,42.15398,-70.896252,Active,True
+CUST000011,Mountain Club 0011,Convenience Retail,SO0002,ASM001,Area Sales Manager 001,MDM012,Market Development Manager 012,4,40.468001,-111.755211,Active,True
+CUST000012,Mountain Club 0012,Restaurant,SO0013,ASM004,Area Sales Manager 004,MDM013,Market Development Manager 013,4,45.544371,-122.623728,Active,True
+CUST000013,Metro Foods 0013,Convenience Retail,SO0027,ASM007,Area Sales Manager 007,MDM014,Market Development Manager 014,1,32.946428,-96.780105,Active,True
+CUST000014,Central Dining 0014,Restaurant,SO0029,ASM008,Area Sales Manager 008,MDM015,Market Development Manager 015,3,35.103311,-97.596318,Active,True
+CUST000015,Summit Market 0015,Convenience Retail,SO0018,ASM005,Area Sales Manager 005,MDM016,Market Development Manager 016,3,41.809314,-87.256065,Active,True
+CUST000016,Canyon Cafe 0016,Convenience Retail,SO0011,ASM003,Area Sales Manager 003,MDM017,Market Development Manager 017,3,47.185483,-122.415821,Active,True
+CUST000017,Pioneer Retail 0017,Convenience Retail,SO0022,ASM006,Area Sales Manager 006,MDM018,Market Development Manager 018,3,42.509207,-82.847463,Active,True
+CUST000018,Metro Foods 0018,Club,SO0010,ASM003,Area Sales Manager 003,MDM019,Market Development Manager 019,3,47.820694,-122.379926,Active,True
+CUST000019,Corner Stop 0019,Restaurant,SO0022,ASM006,Area Sales Manager 006,MDM020,Market Development Manager 020,2,42.101537,-82.92151,Active,True
+CUST000020,Canyon Cafe 0020,Retail,SO0006,ASM002,Area Sales Manager 002,MDM021,Market Development Manager 021,3,39.632387,-104.950665,Active,True
+CUST000021,Evergreen Mart 0021,Convenience Retail,SO0007,ASM002,Area Sales Manager 002,MDM022,Market Development Manager 022,3,39.853394,-105.155781,Active,True
+CUST000022,Central Dining 0022,Club,SO0023,ASM006,Area Sales Manager 006,MDM023,Market Development Manager 023,1,42.03244,-82.924057,Active,True
+CUST000023,Summit Market 0023,Retail,SO0017,ASM005,Area Sales Manager 005,MDM024,Market Development Manager 024,3,41.998287,-87.518167,Active,True
+CUST000024,Lakeside Store 0024,Convenience Retail,SO0047,ASM012,Area Sales Manager 012,MDM025,Market Development Manager 025,3,35.121275,-80.86303,Active,True
+CUST000025,Corner Stop 0025,Retail,SO0035,ASM009,Area Sales Manager 009,MDM026,Market Development Manager 026,1,42.029425,-71.308212,Active,True
+CUST000026,Corner Stop 0026,Restaurant,SO0025,ASM007,Area Sales Manager 007,MDM027,Market Development Manager 027,3,32.682159,-96.472193,Active,True
+CUST000027,Pioneer Retail 0027,Restaurant,SO0036,ASM010,Area Sales Manager 010,MDM028,Market Development Manager 028,4,42.126696,-71.110259,Active,True
+CUST000028,Central Dining 0028,Retail,SO0041,ASM011,Area Sales Manager 011,MDM029,Market Development Manager 029,5,33.959077,-84.81983,Active,True
+CUST000029,Central Dining 0029,Retail,SO0024,ASM007,Area Sales Manager 007,MDM030,Market Development Manager 030,3,42.182863,-83.407314,Active,True
+CUST000030,Corner Stop 0030,Restaurant,SO0013,ASM004,Area Sales Manager 004,MDM031,Market Development Manager 031,4,45.573369,-122.672937,Active,True
+CUST000031,Metro Foods 0031,Convenience Retail,SO0003,ASM001,Area Sales Manager 001,MDM032,Market Development Manager 032,3,40.504926,-111.846181,Active,True
+CUST000032,Corner Stop 0032,Club,SO0019,ASM005,Area Sales Manager 005,MDM033,Market Development Manager 033,3,42.086878,-87.540582,Active,True
+CUST000033,Corner Stop 0033,Retail,SO0015,ASM004,Area Sales Manager 004,MDM034,Market Development Manager 034,3,45.355262,-122.910044,Active,True
+CUST000034,Pioneer Retail 0034,Convenience Retail,SO0025,ASM007,Area Sales Manager 007,MDM035,Market Development Manager 035,2,32.935488,-96.852556,Active,True
+CUST000035,Evergreen Mart 0035,Institutional,SO0030,ASM008,Area Sales Manager 008,MDM036,Market Development Manager 036,3,35.545978,-97.306868,Active,True
+CUST000036,Evergreen Mart 0036,Convenience Retail,SO0011,ASM003,Area Sales Manager 003,MDM037,Market Development Manager 037,3,47.709802,-122.579485,Active,True
+CUST000037,Metro Foods 0037,Convenience Retail,SO0023,ASM006,Area Sales Manager 006,MDM038,Market Development Manager 038,2,42.128165,-83.149639,Active,True
+CUST000038,Pioneer Retail 0038,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM039,Market Development Manager 039,1,34.015495,-84.348738,Active,True
+CUST000039,Corner Stop 0039,Retail,SO0045,ASM012,Area Sales Manager 012,MDM040,Market Development Manager 040,3,34.808429,-80.964677,Active,True
+CUST000040,Valley Grocery 0040,Retail,SO0039,ASM010,Area Sales Manager 010,MDM041,Market Development Manager 041,3,41.177682,-74.139831,Active,True
+CUST000041,Metro Foods 0041,Retail,SO0035,ASM009,Area Sales Manager 009,MDM042,Market Development Manager 042,5,42.063864,-71.300179,Active,True
+CUST000042,Lakeside Store 0042,Convenience Retail,SO0011,ASM003,Area Sales Manager 003,MDM043,Market Development Manager 043,2,47.400853,-122.122478,Active,True
+CUST000043,Pioneer Retail 0043,Retail,SO0025,ASM007,Area Sales Manager 007,MDM044,Market Development Manager 044,5,32.872938,-96.836159,Active,True
+CUST000044,Mountain Club 0044,Retail,SO0041,ASM011,Area Sales Manager 011,MDM045,Market Development Manager 045,5,33.860518,-84.501746,Active,True
+CUST000045,Evergreen Mart 0045,Convenience Retail,SO0015,ASM004,Area Sales Manager 004,MDM046,Market Development Manager 046,5,45.558347,-122.283627,Active,True
+CUST000046,Metro Foods 0046,Restaurant,SO0004,ASM002,Area Sales Manager 002,MDM047,Market Development Manager 047,4,40.832257,-111.5645,Active,True
+CUST000047,Evergreen Mart 0047,Restaurant,SO0003,ASM001,Area Sales Manager 001,MDM048,Market Development Manager 048,3,41.037372,-111.783811,Active,True
+CUST000048,Pioneer Retail 0048,Convenience Retail,SO0026,ASM007,Area Sales Manager 007,MDM049,Market Development Manager 049,2,32.470583,-97.13904,Active,True
+CUST000049,Metro Foods 0049,Retail,SO0005,ASM002,Area Sales Manager 002,MDM050,Market Development Manager 050,4,39.69432,-105.086097,Active,True
+CUST000050,Evergreen Mart 0050,Convenience Retail,SO0037,ASM010,Area Sales Manager 010,MDM051,Market Development Manager 051,4,41.087045,-74.396082,Active,True
+CUST000051,Lakeside Store 0051,Restaurant,SO0014,ASM004,Area Sales Manager 004,MDM052,Market Development Manager 052,5,45.51392,-122.719261,Active,True
+CUST000052,Lakeside Store 0052,Club,SO0026,ASM007,Area Sales Manager 007,MDM053,Market Development Manager 053,2,32.799346,-96.636015,Active,True
+CUST000053,Pioneer Retail 0053,Retail,SO0010,ASM003,Area Sales Manager 003,MDM054,Market Development Manager 054,3,47.395392,-122.636803,Active,True
+CUST000054,Metro Foods 0054,Retail,SO0009,ASM003,Area Sales Manager 003,MDM055,Market Development Manager 055,4,47.835176,-122.663698,Active,True
+CUST000055,Mountain Club 0055,Retail,SO0048,ASM013,Area Sales Manager 013,MDM056,Market Development Manager 056,1,35.349229,-80.964142,Active,True
+CUST000056,Pioneer Retail 0056,Retail,SO0035,ASM009,Area Sales Manager 009,MDM057,Market Development Manager 057,3,42.494629,-70.72455,Active,True
+CUST000057,Central Dining 0057,Retail,SO0048,ASM013,Area Sales Manager 013,MDM058,Market Development Manager 058,5,35.171135,-80.782476,Active,True
+CUST000058,Central Dining 0058,Convenience Retail,SO0028,ASM008,Area Sales Manager 008,MDM059,Market Development Manager 059,1,32.799322,-96.739943,Active,True
+CUST000059,Evergreen Mart 0059,Institutional,SO0026,ASM007,Area Sales Manager 007,MDM060,Market Development Manager 060,3,32.563389,-96.868846,Active,True
+CUST000060,Valley Grocery 0060,Convenience Retail,SO0015,ASM004,Area Sales Manager 004,MDM061,Market Development Manager 061,4,45.594101,-122.376937,Active,True
+CUST000061,Lakeside Store 0061,Restaurant,SO0033,ASM009,Area Sales Manager 009,MDM062,Market Development Manager 062,4,41.823278,-71.099566,Active,True
+CUST000062,Summit Market 0062,Convenience Retail,SO0006,ASM002,Area Sales Manager 002,MDM063,Market Development Manager 063,4,40.29196,-105.12266,Active,True
+CUST000063,Valley Grocery 0063,Retail,SO0008,ASM003,Area Sales Manager 003,MDM064,Market Development Manager 064,3,39.715634,-105.429732,Active,True
+CUST000064,Valley Grocery 0064,Convenience Retail,SO0041,ASM011,Area Sales Manager 011,MDM065,Market Development Manager 065,2,33.427144,-84.662196,Active,True
+CUST000065,Canyon Cafe 0065,Restaurant,SO0044,ASM012,Area Sales Manager 012,MDM066,Market Development Manager 066,1,33.456108,-84.480062,Active,True
+CUST000066,Corner Stop 0066,Retail,SO0039,ASM010,Area Sales Manager 010,MDM067,Market Development Manager 067,4,40.488986,-74.233719,Active,True
+CUST000067,Canyon Cafe 0067,Restaurant,SO0025,ASM007,Area Sales Manager 007,MDM068,Market Development Manager 068,2,32.682661,-96.830456,Active,True
+CUST000068,Lakeside Store 0068,Retail,SO0039,ASM010,Area Sales Manager 010,MDM069,Market Development Manager 069,1,40.669103,-74.114358,Active,True
+CUST000069,Pioneer Retail 0069,Club,SO0034,ASM009,Area Sales Manager 009,MDM070,Market Development Manager 070,3,42.613279,-71.020043,Active,True
+CUST000070,Summit Market 0070,Retail,SO0036,ASM010,Area Sales Manager 010,MDM071,Market Development Manager 071,3,42.360121,-71.23929,Active,True
+CUST000071,Corner Stop 0071,Club,SO0044,ASM012,Area Sales Manager 012,MDM072,Market Development Manager 072,2,34.452521,-83.864708,Active,True
+CUST000072,Mountain Club 0072,Convenience Retail,SO0044,ASM012,Area Sales Manager 012,MDM073,Market Development Manager 073,3,33.558236,-84.666103,Active,True
+CUST000073,Evergreen Mart 0073,Restaurant,SO0018,ASM005,Area Sales Manager 005,MDM074,Market Development Manager 074,1,41.998136,-88.065946,Active,True
+CUST000074,Pioneer Retail 0074,Restaurant,SO0008,ASM003,Area Sales Manager 003,MDM075,Market Development Manager 075,5,39.461592,-105.108181,Active,True
+CUST000075,Valley Grocery 0075,Restaurant,SO0028,ASM008,Area Sales Manager 008,MDM076,Market Development Manager 076,3,32.703657,-96.822872,Active,True
+CUST000076,Summit Market 0076,Convenience Retail,SO0030,ASM008,Area Sales Manager 008,MDM077,Market Development Manager 077,3,35.835473,-98.158065,Active,True
+CUST000077,Pioneer Retail 0077,Retail,SO0047,ASM012,Area Sales Manager 012,MDM078,Market Development Manager 078,3,35.301098,-80.936079,Active,True
+CUST000078,Valley Grocery 0078,Convenience Retail,SO0033,ASM009,Area Sales Manager 009,MDM079,Market Development Manager 079,3,42.791938,-71.442365,Active,True
+CUST000079,Corner Stop 0079,Retail,SO0033,ASM009,Area Sales Manager 009,MDM080,Market Development Manager 080,2,42.344769,-71.322125,Active,True
+CUST000080,Pioneer Retail 0080,Retail,SO0041,ASM011,Area Sales Manager 011,MDM081,Market Development Manager 081,5,33.894664,-83.954922,Active,True
+CUST000081,Mountain Club 0081,Retail,SO0041,ASM011,Area Sales Manager 011,MDM082,Market Development Manager 082,3,34.184984,-84.278252,Active,True
+CUST000082,Metro Foods 0082,Restaurant,SO0039,ASM010,Area Sales Manager 010,MDM083,Market Development Manager 083,3,40.752336,-74.346756,Active,True
+CUST000083,Evergreen Mart 0083,Convenience Retail,SO0010,ASM003,Area Sales Manager 003,MDM084,Market Development Manager 084,2,47.801788,-122.379763,Active,True
+CUST000084,Mountain Club 0084,Convenience Retail,SO0011,ASM003,Area Sales Manager 003,MDM085,Market Development Manager 085,1,48.061362,-122.149406,Active,True
+CUST000085,Summit Market 0085,Institutional,SO0034,ASM009,Area Sales Manager 009,MDM086,Market Development Manager 086,1,42.067098,-71.18847,Active,True
+CUST000086,Evergreen Mart 0086,Convenience Retail,SO0039,ASM010,Area Sales Manager 010,MDM087,Market Development Manager 087,4,40.560967,-74.425829,Active,True
+CUST000087,Summit Market 0087,Retail,SO0032,ASM009,Area Sales Manager 009,MDM088,Market Development Manager 088,3,35.299815,-97.438398,Active,True
+CUST000088,Evergreen Mart 0088,Convenience Retail,SO0008,ASM003,Area Sales Manager 003,MDM089,Market Development Manager 089,3,39.166378,-104.914208,Active,True
+CUST000089,Metro Foods 0089,Restaurant,SO0020,ASM006,Area Sales Manager 006,MDM090,Market Development Manager 090,4,42.282152,-88.14561,Active,True
+CUST000090,Metro Foods 0090,Institutional,SO0004,ASM002,Area Sales Manager 002,MDM091,Market Development Manager 091,1,40.365401,-111.522013,Active,True
+CUST000091,Corner Stop 0091,Convenience Retail,SO0037,ASM010,Area Sales Manager 010,MDM092,Market Development Manager 092,3,40.592964,-73.968959,Active,True
+CUST000092,Lakeside Store 0092,Retail,SO0006,ASM002,Area Sales Manager 002,MDM093,Market Development Manager 093,4,39.7978,-104.922714,Active,True
+CUST000093,Mountain Club 0093,Retail,SO0005,ASM002,Area Sales Manager 002,MDM094,Market Development Manager 094,2,39.701069,-104.894452,Active,True
+CUST000094,Valley Grocery 0094,Institutional,SO0009,ASM003,Area Sales Manager 003,MDM095,Market Development Manager 095,3,47.574948,-121.961736,Active,True
+CUST000095,Lakeside Store 0095,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM096,Market Development Manager 096,5,33.799577,-84.176904,Active,True
+CUST000096,Valley Grocery 0096,Retail,SO0036,ASM010,Area Sales Manager 010,MDM097,Market Development Manager 097,5,42.574298,-70.848445,Active,True
+CUST000097,Mountain Club 0097,Retail,SO0017,ASM005,Area Sales Manager 005,MDM098,Market Development Manager 098,4,41.82681,-88.130681,Active,True
+CUST000098,Canyon Cafe 0098,Convenience Retail,SO0039,ASM010,Area Sales Manager 010,MDM099,Market Development Manager 099,3,40.76267,-73.845012,Active,True
+CUST000099,Mountain Club 0099,Restaurant,SO0014,ASM004,Area Sales Manager 004,MDM100,Market Development Manager 100,2,45.114881,-122.876934,Active,True
+CUST000100,Metro Foods 0100,Retail,SO0047,ASM012,Area Sales Manager 012,MDM101,Market Development Manager 101,5,35.296169,-81.196291,Active,True
+CUST000101,Pioneer Retail 0101,Institutional,SO0046,ASM012,Area Sales Manager 012,MDM102,Market Development Manager 102,4,35.109156,-80.728254,Active,True
+CUST000102,Evergreen Mart 0102,Retail,SO0026,ASM007,Area Sales Manager 007,MDM103,Market Development Manager 103,5,32.611106,-96.76244,Active,True
+CUST000103,Mountain Club 0103,Retail,SO0029,ASM008,Area Sales Manager 008,MDM104,Market Development Manager 104,4,35.600116,-97.692568,Active,True
+CUST000104,Corner Stop 0104,Retail,SO0029,ASM008,Area Sales Manager 008,MDM105,Market Development Manager 105,4,35.672732,-97.614835,Active,True
+CUST000105,Metro Foods 0105,Convenience Retail,SO0016,ASM005,Area Sales Manager 005,MDM106,Market Development Manager 106,1,45.485814,-122.47102,Active,True
+CUST000106,Evergreen Mart 0106,Convenience Retail,SO0005,ASM002,Area Sales Manager 002,MDM107,Market Development Manager 107,4,39.368654,-105.573704,Active,True
+CUST000107,Central Dining 0107,Club,SO0002,ASM001,Area Sales Manager 001,MDM108,Market Development Manager 108,4,40.689579,-111.841552,Active,True
+CUST000108,Metro Foods 0108,Convenience Retail,SO0036,ASM010,Area Sales Manager 010,MDM109,Market Development Manager 109,4,42.342816,-70.720504,Active,True
+CUST000109,Metro Foods 0109,Convenience Retail,SO0038,ASM010,Area Sales Manager 010,MDM110,Market Development Manager 110,4,40.5871,-74.542534,Active,True
+CUST000110,Corner Stop 0110,Retail,SO0001,ASM001,Area Sales Manager 001,MDM111,Market Development Manager 111,2,40.961696,-111.460808,Active,True
+CUST000111,Summit Market 0111,Convenience Retail,SO0046,ASM012,Area Sales Manager 012,MDM112,Market Development Manager 112,1,34.966964,-80.724426,Active,True
+CUST000112,Corner Stop 0112,Restaurant,SO0015,ASM004,Area Sales Manager 004,MDM113,Market Development Manager 113,4,45.747274,-122.82965,Active,True
+CUST000113,Evergreen Mart 0113,Retail,SO0003,ASM001,Area Sales Manager 001,MDM114,Market Development Manager 114,5,40.597229,-111.784027,Active,True
+CUST000114,Mountain Club 0114,Convenience Retail,SO0005,ASM002,Area Sales Manager 002,MDM115,Market Development Manager 115,3,39.82968,-104.660135,Active,True
+CUST000115,Pioneer Retail 0115,Retail,SO0016,ASM005,Area Sales Manager 005,MDM116,Market Development Manager 116,3,45.782006,-122.761272,Active,True
+CUST000116,Lakeside Store 0116,Institutional,SO0043,ASM011,Area Sales Manager 011,MDM117,Market Development Manager 117,2,33.716216,-84.300806,Active,True
+CUST000117,Mountain Club 0117,Convenience Retail,SO0014,ASM004,Area Sales Manager 004,MDM118,Market Development Manager 118,1,45.532545,-122.638352,Active,True
+CUST000118,Central Dining 0118,Retail,SO0009,ASM003,Area Sales Manager 003,MDM119,Market Development Manager 119,3,47.689468,-122.338566,Active,True
+CUST000119,Lakeside Store 0119,Convenience Retail,SO0037,ASM010,Area Sales Manager 010,MDM120,Market Development Manager 120,3,40.338308,-74.690646,Active,True
+CUST000120,Lakeside Store 0120,Retail,SO0016,ASM005,Area Sales Manager 005,MDM001,Market Development Manager 001,1,45.441902,-122.194092,Active,True
+CUST000121,Metro Foods 0121,Retail,SO0027,ASM007,Area Sales Manager 007,MDM002,Market Development Manager 002,3,32.863627,-96.89877,Active,True
+CUST000122,Corner Stop 0122,Convenience Retail,SO0007,ASM002,Area Sales Manager 002,MDM003,Market Development Manager 003,3,39.893993,-105.075115,Active,True
+CUST000123,Canyon Cafe 0123,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM004,Market Development Manager 004,3,33.750585,-83.738582,Active,True
+CUST000124,Canyon Cafe 0124,Convenience Retail,SO0023,ASM006,Area Sales Manager 006,MDM005,Market Development Manager 005,4,42.35428,-82.900606,Active,True
+CUST000125,Lakeside Store 0125,Convenience Retail,SO0027,ASM007,Area Sales Manager 007,MDM006,Market Development Manager 006,3,32.581829,-96.689425,Active,True
+CUST000126,Summit Market 0126,Restaurant,SO0047,ASM012,Area Sales Manager 012,MDM007,Market Development Manager 007,3,35.380221,-80.676704,Active,True
+CUST000127,Corner Stop 0127,Restaurant,SO0044,ASM012,Area Sales Manager 012,MDM008,Market Development Manager 008,1,33.677438,-84.274509,Active,True
+CUST000128,Canyon Cafe 0128,Retail,SO0004,ASM002,Area Sales Manager 002,MDM009,Market Development Manager 009,2,40.302948,-111.974902,Active,True
+CUST000129,Evergreen Mart 0129,Restaurant,SO0047,ASM012,Area Sales Manager 012,MDM010,Market Development Manager 010,4,35.568066,-80.619304,Active,True
+CUST000130,Metro Foods 0130,Convenience Retail,SO0007,ASM002,Area Sales Manager 002,MDM011,Market Development Manager 011,1,38.998068,-105.126174,Active,True
+CUST000131,Metro Foods 0131,Institutional,SO0013,ASM004,Area Sales Manager 004,MDM012,Market Development Manager 012,4,45.375307,-122.56213,Active,True
+CUST000132,Lakeside Store 0132,Convenience Retail,SO0035,ASM009,Area Sales Manager 009,MDM013,Market Development Manager 013,3,42.384969,-71.080425,Active,True
+CUST000133,Canyon Cafe 0133,Retail,SO0009,ASM003,Area Sales Manager 003,MDM014,Market Development Manager 014,3,47.773282,-122.504193,Active,True
+CUST000134,Pioneer Retail 0134,Restaurant,SO0012,ASM004,Area Sales Manager 004,MDM015,Market Development Manager 015,5,47.363663,-122.554024,Active,True
+CUST000135,Metro Foods 0135,Institutional,SO0030,ASM008,Area Sales Manager 008,MDM016,Market Development Manager 016,2,35.818555,-97.627034,Active,True
+CUST000136,Lakeside Store 0136,Retail,SO0005,ASM002,Area Sales Manager 002,MDM017,Market Development Manager 017,4,39.803757,-104.59912,Active,True
+CUST000137,Corner Stop 0137,Retail,SO0036,ASM010,Area Sales Manager 010,MDM018,Market Development Manager 018,2,42.247959,-70.945817,Active,True
+CUST000138,Mountain Club 0138,Retail,SO0004,ASM002,Area Sales Manager 002,MDM019,Market Development Manager 019,2,40.626107,-111.604047,Active,True
+CUST000139,Corner Stop 0139,Convenience Retail,SO0001,ASM001,Area Sales Manager 001,MDM020,Market Development Manager 020,1,40.339183,-112.097557,Active,True
+CUST000140,Valley Grocery 0140,Convenience Retail,SO0016,ASM005,Area Sales Manager 005,MDM021,Market Development Manager 021,3,45.451856,-122.718196,Active,True
+CUST000141,Lakeside Store 0141,Club,SO0027,ASM007,Area Sales Manager 007,MDM022,Market Development Manager 022,2,32.953412,-96.631334,Active,True
+CUST000142,Metro Foods 0142,Restaurant,SO0031,ASM008,Area Sales Manager 008,MDM023,Market Development Manager 023,3,35.541705,-97.007632,Active,True
+CUST000143,Summit Market 0143,Convenience Retail,SO0026,ASM007,Area Sales Manager 007,MDM024,Market Development Manager 024,5,32.588318,-97.055066,Active,True
+CUST000144,Canyon Cafe 0144,Retail,SO0011,ASM003,Area Sales Manager 003,MDM025,Market Development Manager 025,3,47.477757,-122.554299,Active,True
+CUST000145,Canyon Cafe 0145,Convenience Retail,SO0001,ASM001,Area Sales Manager 001,MDM026,Market Development Manager 026,5,40.773586,-112.082384,Active,True
+CUST000146,Lakeside Store 0146,Retail,SO0017,ASM005,Area Sales Manager 005,MDM027,Market Development Manager 027,2,41.838188,-87.793029,Active,True
+CUST000147,Canyon Cafe 0147,Convenience Retail,SO0019,ASM005,Area Sales Manager 005,MDM028,Market Development Manager 028,2,41.516068,-87.646795,Active,True
+CUST000148,Mountain Club 0148,Retail,SO0045,ASM012,Area Sales Manager 012,MDM029,Market Development Manager 029,4,35.274561,-81.206806,Active,True
+CUST000149,Lakeside Store 0149,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM030,Market Development Manager 030,3,33.685871,-84.297136,Active,True
+CUST000150,Metro Foods 0150,Convenience Retail,SO0010,ASM003,Area Sales Manager 003,MDM031,Market Development Manager 031,5,47.532755,-122.600133,Active,True
+CUST000151,Metro Foods 0151,Retail,SO0019,ASM005,Area Sales Manager 005,MDM032,Market Development Manager 032,4,41.583946,-87.839166,Active,True
+CUST000152,Central Dining 0152,Convenience Retail,SO0004,ASM002,Area Sales Manager 002,MDM033,Market Development Manager 033,5,40.455206,-111.828741,Active,True
+CUST000153,Mountain Club 0153,Convenience Retail,SO0048,ASM013,Area Sales Manager 013,MDM034,Market Development Manager 034,4,35.121122,-81.25604,Active,True
+CUST000154,Evergreen Mart 0154,Club,SO0004,ASM002,Area Sales Manager 002,MDM035,Market Development Manager 035,4,40.630653,-111.68785,Active,True
+CUST000155,Summit Market 0155,Convenience Retail,SO0004,ASM002,Area Sales Manager 002,MDM036,Market Development Manager 036,5,40.889653,-112.035385,Active,True
+CUST000156,Lakeside Store 0156,Retail,SO0038,ASM010,Area Sales Manager 010,MDM037,Market Development Manager 037,3,40.576546,-74.037117,Active,True
+CUST000157,Mountain Club 0157,Restaurant,SO0033,ASM009,Area Sales Manager 009,MDM038,Market Development Manager 038,1,41.938701,-70.924391,Active,True
+CUST000158,Summit Market 0158,Retail,SO0011,ASM003,Area Sales Manager 003,MDM039,Market Development Manager 039,3,47.250266,-122.220519,Active,True
+CUST000159,Corner Stop 0159,Restaurant,SO0033,ASM009,Area Sales Manager 009,MDM040,Market Development Manager 040,4,42.538555,-70.998489,Active,True
+CUST000160,Corner Stop 0160,Retail,SO0012,ASM004,Area Sales Manager 004,MDM041,Market Development Manager 041,3,47.496037,-122.324073,Active,True
+CUST000161,Corner Stop 0161,Convenience Retail,SO0039,ASM010,Area Sales Manager 010,MDM042,Market Development Manager 042,3,40.853484,-74.305763,Active,True
+CUST000162,Metro Foods 0162,Restaurant,SO0044,ASM012,Area Sales Manager 012,MDM043,Market Development Manager 043,3,33.488853,-84.991195,Active,True
+CUST000163,Corner Stop 0163,Retail,SO0026,ASM007,Area Sales Manager 007,MDM044,Market Development Manager 044,4,32.675383,-97.28121,Active,True
+CUST000164,Metro Foods 0164,Convenience Retail,SO0037,ASM010,Area Sales Manager 010,MDM045,Market Development Manager 045,2,40.688219,-74.450747,Active,True
+CUST000165,Central Dining 0165,Retail,SO0038,ASM010,Area Sales Manager 010,MDM046,Market Development Manager 046,2,40.362099,-73.997601,Active,True
+CUST000166,Central Dining 0166,Institutional,SO0003,ASM001,Area Sales Manager 001,MDM047,Market Development Manager 047,2,40.676469,-111.926501,Active,True
+CUST000167,Canyon Cafe 0167,Convenience Retail,SO0006,ASM002,Area Sales Manager 002,MDM048,Market Development Manager 048,5,39.421504,-105.422968,Active,True
+CUST000168,Central Dining 0168,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM049,Market Development Manager 049,5,34.210956,-84.431543,Active,True
+CUST000169,Mountain Club 0169,Retail,SO0037,ASM010,Area Sales Manager 010,MDM050,Market Development Manager 050,1,40.882515,-74.09255,Active,True
+CUST000170,Pioneer Retail 0170,Convenience Retail,SO0021,ASM006,Area Sales Manager 006,MDM051,Market Development Manager 051,3,42.63453,-83.126748,Active,True
+CUST000171,Evergreen Mart 0171,Institutional,SO0014,ASM004,Area Sales Manager 004,MDM052,Market Development Manager 052,4,45.289594,-122.763985,Active,True
+CUST000172,Pioneer Retail 0172,Restaurant,SO0016,ASM005,Area Sales Manager 005,MDM053,Market Development Manager 053,2,45.111285,-122.557883,Active,True
+CUST000173,Valley Grocery 0173,Convenience Retail,SO0026,ASM007,Area Sales Manager 007,MDM054,Market Development Manager 054,4,32.972911,-96.728908,Active,True
+CUST000174,Pioneer Retail 0174,Retail,SO0043,ASM011,Area Sales Manager 011,MDM055,Market Development Manager 055,2,33.957952,-84.300662,Active,True
+CUST000175,Evergreen Mart 0175,Restaurant,SO0030,ASM008,Area Sales Manager 008,MDM056,Market Development Manager 056,2,35.572647,-97.419474,Active,True
+CUST000176,Summit Market 0176,Restaurant,SO0005,ASM002,Area Sales Manager 002,MDM057,Market Development Manager 057,3,39.895471,-104.677369,Active,True
+CUST000177,Central Dining 0177,Convenience Retail,SO0030,ASM008,Area Sales Manager 008,MDM058,Market Development Manager 058,4,35.342389,-97.625252,Active,True
+CUST000178,Corner Stop 0178,Retail,SO0037,ASM010,Area Sales Manager 010,MDM059,Market Development Manager 059,3,41.110294,-74.28711,Active,True
+CUST000179,Mountain Club 0179,Institutional,SO0005,ASM002,Area Sales Manager 002,MDM060,Market Development Manager 060,3,39.67776,-104.752287,Active,True
+CUST000180,Mountain Club 0180,Institutional,SO0014,ASM004,Area Sales Manager 004,MDM061,Market Development Manager 061,1,45.319596,-123.258489,Active,True
+CUST000181,Valley Grocery 0181,Club,SO0017,ASM005,Area Sales Manager 005,MDM062,Market Development Manager 062,3,41.827824,-87.351559,Active,True
+CUST000182,Corner Stop 0182,Club,SO0023,ASM006,Area Sales Manager 006,MDM063,Market Development Manager 063,1,42.317161,-82.783507,Active,True
+CUST000183,Evergreen Mart 0183,Convenience Retail,SO0016,ASM005,Area Sales Manager 005,MDM064,Market Development Manager 064,2,45.654837,-122.733784,Active,True
+CUST000184,Valley Grocery 0184,Convenience Retail,SO0019,ASM005,Area Sales Manager 005,MDM065,Market Development Manager 065,1,42.053516,-87.88857,Active,True
+CUST000185,Mountain Club 0185,Club,SO0029,ASM008,Area Sales Manager 008,MDM066,Market Development Manager 066,3,35.163627,-97.907269,Active,True
+CUST000186,Pioneer Retail 0186,Convenience Retail,SO0046,ASM012,Area Sales Manager 012,MDM067,Market Development Manager 067,4,34.97153,-80.867145,Active,True
+CUST000187,Mountain Club 0187,Retail,SO0040,ASM011,Area Sales Manager 011,MDM068,Market Development Manager 068,2,40.36154,-74.403122,Active,True
+CUST000188,Mountain Club 0188,Retail,SO0001,ASM001,Area Sales Manager 001,MDM069,Market Development Manager 069,2,40.952629,-112.17604,Active,True
+CUST000189,Corner Stop 0189,Convenience Retail,SO0020,ASM006,Area Sales Manager 006,MDM070,Market Development Manager 070,4,41.892669,-87.492615,Active,True
+CUST000190,Pioneer Retail 0190,Retail,SO0009,ASM003,Area Sales Manager 003,MDM071,Market Development Manager 071,5,47.64573,-122.137658,Active,True
+CUST000191,Corner Stop 0191,Club,SO0008,ASM003,Area Sales Manager 003,MDM072,Market Development Manager 072,1,39.177383,-104.739864,Active,True
+CUST000192,Mountain Club 0192,Convenience Retail,SO0048,ASM013,Area Sales Manager 013,MDM073,Market Development Manager 073,3,34.762141,-80.818341,Active,True
+CUST000193,Pioneer Retail 0193,Restaurant,SO0010,ASM003,Area Sales Manager 003,MDM074,Market Development Manager 074,3,47.735274,-122.425029,Active,True
+CUST000194,Central Dining 0194,Restaurant,SO0019,ASM005,Area Sales Manager 005,MDM075,Market Development Manager 075,2,41.803284,-87.883567,Active,True
+CUST000195,Evergreen Mart 0195,Convenience Retail,SO0014,ASM004,Area Sales Manager 004,MDM076,Market Development Manager 076,5,45.799212,-122.908613,Active,True
+CUST000196,Pioneer Retail 0196,Retail,SO0014,ASM004,Area Sales Manager 004,MDM077,Market Development Manager 077,4,45.625836,-122.365984,Active,True
+CUST000197,Lakeside Store 0197,Convenience Retail,SO0033,ASM009,Area Sales Manager 009,MDM078,Market Development Manager 078,2,42.519327,-70.973702,Active,True
+CUST000198,Summit Market 0198,Retail,SO0017,ASM005,Area Sales Manager 005,MDM079,Market Development Manager 079,1,41.739052,-87.94976,Active,True
+CUST000199,Canyon Cafe 0199,Convenience Retail,SO0006,ASM002,Area Sales Manager 002,MDM080,Market Development Manager 080,4,40.079005,-104.926497,Active,True
+CUST000200,Summit Market 0200,Convenience Retail,SO0018,ASM005,Area Sales Manager 005,MDM081,Market Development Manager 081,1,41.928799,-87.903168,Active,True
+CUST000201,Evergreen Mart 0201,Retail,SO0001,ASM001,Area Sales Manager 001,MDM082,Market Development Manager 082,3,40.435137,-111.903799,Active,True
+CUST000202,Pioneer Retail 0202,Club,SO0009,ASM003,Area Sales Manager 003,MDM083,Market Development Manager 083,5,47.829753,-122.329239,Active,True
+CUST000203,Lakeside Store 0203,Restaurant,SO0011,ASM003,Area Sales Manager 003,MDM084,Market Development Manager 084,4,47.555472,-122.602707,Active,True
+CUST000204,Canyon Cafe 0204,Retail,SO0036,ASM010,Area Sales Manager 010,MDM085,Market Development Manager 085,1,42.047521,-70.931095,Active,True
+CUST000205,Summit Market 0205,Convenience Retail,SO0036,ASM010,Area Sales Manager 010,MDM086,Market Development Manager 086,4,42.329429,-70.809975,Active,True
+CUST000206,Corner Stop 0206,Retail,SO0008,ASM003,Area Sales Manager 003,MDM087,Market Development Manager 087,4,39.748928,-105.201561,Active,True
+CUST000207,Valley Grocery 0207,Convenience Retail,SO0045,ASM012,Area Sales Manager 012,MDM088,Market Development Manager 088,3,35.32192,-80.521267,Active,True
+CUST000208,Summit Market 0208,Convenience Retail,SO0035,ASM009,Area Sales Manager 009,MDM089,Market Development Manager 089,4,42.049049,-71.138677,Active,True
+CUST000209,Central Dining 0209,Convenience Retail,SO0024,ASM007,Area Sales Manager 007,MDM090,Market Development Manager 090,1,42.186926,-82.982579,Active,True
+CUST000210,Valley Grocery 0210,Convenience Retail,SO0036,ASM010,Area Sales Manager 010,MDM091,Market Development Manager 091,1,42.437963,-71.159398,Active,True
+CUST000211,Valley Grocery 0211,Convenience Retail,SO0028,ASM008,Area Sales Manager 008,MDM092,Market Development Manager 092,2,32.491843,-96.91731,Active,True
+CUST000212,Pioneer Retail 0212,Retail,SO0003,ASM001,Area Sales Manager 001,MDM093,Market Development Manager 093,4,40.840347,-112.18152,Active,True
+CUST000213,Summit Market 0213,Convenience Retail,SO0024,ASM007,Area Sales Manager 007,MDM094,Market Development Manager 094,4,42.338677,-83.038071,Active,True
+CUST000214,Metro Foods 0214,Convenience Retail,SO0023,ASM006,Area Sales Manager 006,MDM095,Market Development Manager 095,4,41.663191,-82.946817,Active,True
+CUST000215,Metro Foods 0215,Convenience Retail,SO0044,ASM012,Area Sales Manager 012,MDM096,Market Development Manager 096,1,33.654048,-84.576223,Active,True
+CUST000216,Corner Stop 0216,Restaurant,SO0043,ASM011,Area Sales Manager 011,MDM097,Market Development Manager 097,1,34.105871,-83.928653,Active,True
+CUST000217,Mountain Club 0217,Club,SO0023,ASM006,Area Sales Manager 006,MDM098,Market Development Manager 098,5,42.340294,-82.607377,Active,True
+CUST000218,Central Dining 0218,Restaurant,SO0027,ASM007,Area Sales Manager 007,MDM099,Market Development Manager 099,3,32.868069,-96.002287,Active,True
+CUST000219,Valley Grocery 0219,Convenience Retail,SO0048,ASM013,Area Sales Manager 013,MDM100,Market Development Manager 100,3,35.469349,-80.933558,Active,True
+CUST000220,Valley Grocery 0220,Convenience Retail,SO0016,ASM005,Area Sales Manager 005,MDM101,Market Development Manager 101,2,45.522971,-122.608756,Active,True
+CUST000221,Canyon Cafe 0221,Retail,SO0012,ASM004,Area Sales Manager 004,MDM102,Market Development Manager 102,2,47.712441,-122.816342,Active,True
+CUST000222,Valley Grocery 0222,Institutional,SO0002,ASM001,Area Sales Manager 001,MDM103,Market Development Manager 103,2,40.400225,-111.905603,Active,True
+CUST000223,Evergreen Mart 0223,Restaurant,SO0048,ASM013,Area Sales Manager 013,MDM104,Market Development Manager 104,2,35.434858,-81.178644,Active,True
+CUST000224,Metro Foods 0224,Convenience Retail,SO0027,ASM007,Area Sales Manager 007,MDM105,Market Development Manager 105,3,32.765053,-96.727284,Active,True
+CUST000225,Valley Grocery 0225,Convenience Retail,SO0018,ASM005,Area Sales Manager 005,MDM106,Market Development Manager 106,5,41.893851,-88.102787,Active,True
+CUST000226,Corner Stop 0226,Retail,SO0045,ASM012,Area Sales Manager 012,MDM107,Market Development Manager 107,2,35.171858,-80.868955,Active,True
+CUST000227,Summit Market 0227,Restaurant,SO0025,ASM007,Area Sales Manager 007,MDM108,Market Development Manager 108,5,33.013612,-97.074776,Active,True
+CUST000228,Metro Foods 0228,Institutional,SO0031,ASM008,Area Sales Manager 008,MDM109,Market Development Manager 109,1,35.539829,-97.205163,Active,True
+CUST000229,Lakeside Store 0229,Convenience Retail,SO0013,ASM004,Area Sales Manager 004,MDM110,Market Development Manager 110,1,45.089202,-122.886659,Active,True
+CUST000230,Pioneer Retail 0230,Convenience Retail,SO0023,ASM006,Area Sales Manager 006,MDM111,Market Development Manager 111,2,42.341045,-83.123737,Active,True
+CUST000231,Metro Foods 0231,Restaurant,SO0015,ASM004,Area Sales Manager 004,MDM112,Market Development Manager 112,3,45.299621,-122.558681,Active,True
+CUST000232,Metro Foods 0232,Retail,SO0002,ASM001,Area Sales Manager 001,MDM113,Market Development Manager 113,3,40.786438,-111.927861,Active,True
+CUST000233,Evergreen Mart 0233,Retail,SO0026,ASM007,Area Sales Manager 007,MDM114,Market Development Manager 114,5,33.291775,-96.853358,Active,True
+CUST000234,Corner Stop 0234,Retail,SO0018,ASM005,Area Sales Manager 005,MDM115,Market Development Manager 115,2,41.609039,-87.817739,Active,True
+CUST000235,Evergreen Mart 0235,Convenience Retail,SO0018,ASM005,Area Sales Manager 005,MDM116,Market Development Manager 116,3,41.722558,-87.382949,Active,True
+CUST000236,Mountain Club 0236,Restaurant,SO0042,ASM011,Area Sales Manager 011,MDM117,Market Development Manager 117,4,33.50827,-84.255647,Active,True
+CUST000237,Mountain Club 0237,Retail,SO0026,ASM007,Area Sales Manager 007,MDM118,Market Development Manager 118,2,32.697223,-97.013751,Active,True
+CUST000238,Summit Market 0238,Restaurant,SO0022,ASM006,Area Sales Manager 006,MDM119,Market Development Manager 119,4,42.289861,-82.575256,Active,True
+CUST000239,Pioneer Retail 0239,Convenience Retail,SO0008,ASM003,Area Sales Manager 003,MDM120,Market Development Manager 120,3,39.681133,-104.971372,Active,True
+CUST000240,Central Dining 0240,Retail,SO0012,ASM004,Area Sales Manager 004,MDM001,Market Development Manager 001,5,47.897527,-121.920252,Active,True
+CUST000241,Summit Market 0241,Retail,SO0017,ASM005,Area Sales Manager 005,MDM002,Market Development Manager 002,3,41.590384,-87.651769,Active,True
+CUST000242,Central Dining 0242,Club,SO0007,ASM002,Area Sales Manager 002,MDM003,Market Development Manager 003,1,39.792102,-104.768702,Active,True
+CUST000243,Evergreen Mart 0243,Convenience Retail,SO0028,ASM008,Area Sales Manager 008,MDM004,Market Development Manager 004,3,32.84904,-96.885925,Active,True
+CUST000244,Evergreen Mart 0244,Retail,SO0047,ASM012,Area Sales Manager 012,MDM005,Market Development Manager 005,5,35.322821,-81.755203,Active,True
+CUST000245,Central Dining 0245,Convenience Retail,SO0028,ASM008,Area Sales Manager 008,MDM006,Market Development Manager 006,2,32.896082,-97.087607,Active,True
+CUST000246,Corner Stop 0246,Club,SO0033,ASM009,Area Sales Manager 009,MDM007,Market Development Manager 007,2,42.239092,-70.49817,Active,True
+CUST000247,Central Dining 0247,Restaurant,SO0025,ASM007,Area Sales Manager 007,MDM008,Market Development Manager 008,4,33.180919,-96.764243,Active,True
+CUST000248,Pioneer Retail 0248,Convenience Retail,SO0013,ASM004,Area Sales Manager 004,MDM009,Market Development Manager 009,3,45.506297,-123.019585,Active,True
+CUST000249,Canyon Cafe 0249,Retail,SO0003,ASM001,Area Sales Manager 001,MDM010,Market Development Manager 010,1,40.991889,-111.882347,Active,True
+CUST000250,Mountain Club 0250,Retail,SO0001,ASM001,Area Sales Manager 001,MDM011,Market Development Manager 011,3,40.816581,-111.736796,Active,True
+CUST000251,Metro Foods 0251,Retail,SO0035,ASM009,Area Sales Manager 009,MDM012,Market Development Manager 012,4,42.63627,-71.161984,Active,True
+CUST000252,Canyon Cafe 0252,Convenience Retail,SO0024,ASM007,Area Sales Manager 007,MDM013,Market Development Manager 013,3,42.447242,-83.428479,Active,True
+CUST000253,Evergreen Mart 0253,Retail,SO0005,ASM002,Area Sales Manager 002,MDM014,Market Development Manager 014,3,39.832797,-104.832305,Active,True
+CUST000254,Evergreen Mart 0254,Convenience Retail,SO0040,ASM011,Area Sales Manager 011,MDM015,Market Development Manager 015,4,40.660045,-74.293098,Active,True
+CUST000255,Corner Stop 0255,Retail,SO0043,ASM011,Area Sales Manager 011,MDM016,Market Development Manager 016,5,34.197593,-84.059298,Active,True
+CUST000256,Pioneer Retail 0256,Convenience Retail,SO0047,ASM012,Area Sales Manager 012,MDM017,Market Development Manager 017,3,35.418806,-80.812806,Active,True
+CUST000257,Pioneer Retail 0257,Restaurant,SO0033,ASM009,Area Sales Manager 009,MDM018,Market Development Manager 018,3,42.345279,-71.241222,Active,True
+CUST000258,Canyon Cafe 0258,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM019,Market Development Manager 019,3,33.749748,-84.302948,Active,True
+CUST000259,Canyon Cafe 0259,Convenience Retail,SO0021,ASM006,Area Sales Manager 006,MDM020,Market Development Manager 020,3,42.520462,-82.951089,Active,True
+CUST000260,Pioneer Retail 0260,Retail,SO0045,ASM012,Area Sales Manager 012,MDM021,Market Development Manager 021,2,35.101914,-81.256874,Active,True
+CUST000261,Valley Grocery 0261,Retail,SO0036,ASM010,Area Sales Manager 010,MDM022,Market Development Manager 022,3,42.373143,-71.127363,Active,True
+CUST000262,Canyon Cafe 0262,Retail,SO0013,ASM004,Area Sales Manager 004,MDM023,Market Development Manager 023,2,45.600169,-122.599388,Active,True
+CUST000263,Canyon Cafe 0263,Retail,SO0043,ASM011,Area Sales Manager 011,MDM024,Market Development Manager 024,3,33.222012,-84.47911,Active,True
+CUST000264,Valley Grocery 0264,Convenience Retail,SO0044,ASM012,Area Sales Manager 012,MDM025,Market Development Manager 025,2,33.747842,-84.126617,Active,True
+CUST000265,Central Dining 0265,Institutional,SO0040,ASM011,Area Sales Manager 011,MDM026,Market Development Manager 026,3,40.61061,-74.05111,Active,True
+CUST000266,Canyon Cafe 0266,Convenience Retail,SO0020,ASM006,Area Sales Manager 006,MDM027,Market Development Manager 027,4,42.124634,-87.769243,Active,True
+CUST000267,Summit Market 0267,Institutional,SO0036,ASM010,Area Sales Manager 010,MDM028,Market Development Manager 028,4,42.121402,-70.815426,Active,True
+CUST000268,Pioneer Retail 0268,Convenience Retail,SO0020,ASM006,Area Sales Manager 006,MDM029,Market Development Manager 029,3,41.687519,-87.844602,Active,True
+CUST000269,Canyon Cafe 0269,Restaurant,SO0014,ASM004,Area Sales Manager 004,MDM030,Market Development Manager 030,5,45.276294,-122.569022,Active,True
+CUST000270,Central Dining 0270,Convenience Retail,SO0038,ASM010,Area Sales Manager 010,MDM031,Market Development Manager 031,4,40.763112,-73.561117,Active,True
+CUST000271,Evergreen Mart 0271,Convenience Retail,SO0042,ASM011,Area Sales Manager 011,MDM032,Market Development Manager 032,2,33.786461,-84.285207,Active,True
+CUST000272,Lakeside Store 0272,Retail,SO0030,ASM008,Area Sales Manager 008,MDM033,Market Development Manager 033,3,35.429179,-97.152887,Active,True
+CUST000273,Metro Foods 0273,Restaurant,SO0029,ASM008,Area Sales Manager 008,MDM034,Market Development Manager 034,4,35.306508,-97.531463,Active,True
+CUST000274,Lakeside Store 0274,Retail,SO0033,ASM009,Area Sales Manager 009,MDM035,Market Development Manager 035,4,42.721381,-71.078239,Active,True
+CUST000275,Valley Grocery 0275,Restaurant,SO0048,ASM013,Area Sales Manager 013,MDM036,Market Development Manager 036,1,35.169777,-81.241299,Active,True
+CUST000276,Corner Stop 0276,Retail,SO0043,ASM011,Area Sales Manager 011,MDM037,Market Development Manager 037,2,34.078753,-83.685697,Active,True
+CUST000277,Mountain Club 0277,Institutional,SO0019,ASM005,Area Sales Manager 005,MDM038,Market Development Manager 038,5,41.939038,-87.667612,Active,True
+CUST000278,Central Dining 0278,Restaurant,SO0043,ASM011,Area Sales Manager 011,MDM039,Market Development Manager 039,2,33.776599,-84.490083,Active,True
+CUST000279,Corner Stop 0279,Retail,SO0022,ASM006,Area Sales Manager 006,MDM040,Market Development Manager 040,4,42.494711,-83.114975,Active,True
+CUST000280,Pioneer Retail 0280,Convenience Retail,SO0016,ASM005,Area Sales Manager 005,MDM041,Market Development Manager 041,3,45.713933,-122.633309,Active,True
+CUST000281,Metro Foods 0281,Institutional,SO0015,ASM004,Area Sales Manager 004,MDM042,Market Development Manager 042,5,45.49843,-122.283604,Active,True
+CUST000282,Summit Market 0282,Convenience Retail,SO0010,ASM003,Area Sales Manager 003,MDM043,Market Development Manager 043,5,47.91669,-122.049575,Active,True
+CUST000283,Metro Foods 0283,Convenience Retail,SO0003,ASM001,Area Sales Manager 001,MDM044,Market Development Manager 044,1,40.890715,-112.165334,Active,True
+CUST000284,Central Dining 0284,Restaurant,SO0031,ASM008,Area Sales Manager 008,MDM045,Market Development Manager 045,4,35.26895,-97.190509,Active,True
+CUST000285,Lakeside Store 0285,Retail,SO0005,ASM002,Area Sales Manager 002,MDM046,Market Development Manager 046,4,39.671281,-105.278362,Active,True
+CUST000286,Central Dining 0286,Restaurant,SO0027,ASM007,Area Sales Manager 007,MDM047,Market Development Manager 047,2,32.796447,-96.51358,Active,True
+CUST000287,Canyon Cafe 0287,Retail,SO0013,ASM004,Area Sales Manager 004,MDM048,Market Development Manager 048,3,45.268043,-122.565821,Active,True
+CUST000288,Canyon Cafe 0288,Club,SO0032,ASM009,Area Sales Manager 009,MDM049,Market Development Manager 049,3,35.408643,-97.562444,Active,True
+CUST000289,Valley Grocery 0289,Convenience Retail,SO0016,ASM005,Area Sales Manager 005,MDM050,Market Development Manager 050,4,45.490588,-122.739374,Active,True
+CUST000290,Summit Market 0290,Restaurant,SO0042,ASM011,Area Sales Manager 011,MDM051,Market Development Manager 051,4,33.683232,-84.559463,Active,True
+CUST000291,Canyon Cafe 0291,Retail,SO0007,ASM002,Area Sales Manager 002,MDM052,Market Development Manager 052,3,40.061311,-104.974874,Active,True
+CUST000292,Valley Grocery 0292,Restaurant,SO0015,ASM004,Area Sales Manager 004,MDM053,Market Development Manager 053,3,45.516149,-122.248701,Active,True
+CUST000293,Mountain Club 0293,Retail,SO0045,ASM012,Area Sales Manager 012,MDM054,Market Development Manager 054,2,35.091307,-80.839468,Active,True
+CUST000294,Summit Market 0294,Retail,SO0030,ASM008,Area Sales Manager 008,MDM055,Market Development Manager 055,1,35.371539,-97.261639,Active,True
+CUST000295,Metro Foods 0295,Restaurant,SO0036,ASM010,Area Sales Manager 010,MDM056,Market Development Manager 056,3,42.600764,-70.990739,Active,True
+CUST000296,Lakeside Store 0296,Convenience Retail,SO0008,ASM003,Area Sales Manager 003,MDM057,Market Development Manager 057,3,39.766853,-104.989965,Active,True
+CUST000297,Lakeside Store 0297,Institutional,SO0009,ASM003,Area Sales Manager 003,MDM058,Market Development Manager 058,4,47.251779,-122.628868,Active,True
+CUST000298,Mountain Club 0298,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM059,Market Development Manager 059,2,33.372169,-84.63429,Active,True
+CUST000299,Central Dining 0299,Convenience Retail,SO0036,ASM010,Area Sales Manager 010,MDM060,Market Development Manager 060,4,42.810535,-71.161837,Active,True
+CUST000300,Lakeside Store 0300,Club,SO0021,ASM006,Area Sales Manager 006,MDM061,Market Development Manager 061,3,41.854367,-83.07502,Active,True
+CUST000301,Mountain Club 0301,Convenience Retail,SO0040,ASM011,Area Sales Manager 011,MDM062,Market Development Manager 062,4,40.335649,-74.362894,Active,True
+CUST000302,Mountain Club 0302,Retail,SO0028,ASM008,Area Sales Manager 008,MDM063,Market Development Manager 063,2,32.881068,-97.127122,Active,True
+CUST000303,Valley Grocery 0303,Convenience Retail,SO0029,ASM008,Area Sales Manager 008,MDM064,Market Development Manager 064,3,35.625814,-97.51906,Active,True
+CUST000304,Lakeside Store 0304,Retail,SO0048,ASM013,Area Sales Manager 013,MDM065,Market Development Manager 065,4,35.318441,-80.689859,Active,True
+CUST000305,Pioneer Retail 0305,Restaurant,SO0029,ASM008,Area Sales Manager 008,MDM066,Market Development Manager 066,3,35.719478,-97.580564,Active,True
+CUST000306,Pioneer Retail 0306,Club,SO0016,ASM005,Area Sales Manager 005,MDM067,Market Development Manager 067,2,46.005321,-122.9854,Active,True
+CUST000307,Lakeside Store 0307,Convenience Retail,SO0034,ASM009,Area Sales Manager 009,MDM068,Market Development Manager 068,2,42.09553,-71.389535,Active,True
+CUST000308,Metro Foods 0308,Convenience Retail,SO0041,ASM011,Area Sales Manager 011,MDM069,Market Development Manager 069,2,33.723401,-84.550641,Active,True
+CUST000309,Lakeside Store 0309,Retail,SO0018,ASM005,Area Sales Manager 005,MDM070,Market Development Manager 070,2,41.658223,-87.059392,Active,True
+CUST000310,Pioneer Retail 0310,Retail,SO0005,ASM002,Area Sales Manager 002,MDM071,Market Development Manager 071,3,39.616931,-105.036789,Active,True
+CUST000311,Pioneer Retail 0311,Restaurant,SO0016,ASM005,Area Sales Manager 005,MDM072,Market Development Manager 072,1,45.170698,-123.131055,Active,True
+CUST000312,Evergreen Mart 0312,Convenience Retail,SO0022,ASM006,Area Sales Manager 006,MDM073,Market Development Manager 073,1,42.662639,-83.056909,Active,True
+CUST000313,Corner Stop 0313,Restaurant,SO0035,ASM009,Area Sales Manager 009,MDM074,Market Development Manager 074,3,42.55574,-71.284124,Active,True
+CUST000314,Valley Grocery 0314,Convenience Retail,SO0009,ASM003,Area Sales Manager 003,MDM075,Market Development Manager 075,2,47.462038,-122.192215,Active,True
+CUST000315,Canyon Cafe 0315,Restaurant,SO0015,ASM004,Area Sales Manager 004,MDM076,Market Development Manager 076,2,45.234508,-122.974432,Active,True
+CUST000316,Valley Grocery 0316,Convenience Retail,SO0045,ASM012,Area Sales Manager 012,MDM077,Market Development Manager 077,5,35.248726,-80.761348,Active,True
+CUST000317,Metro Foods 0317,Convenience Retail,SO0046,ASM012,Area Sales Manager 012,MDM078,Market Development Manager 078,1,35.369734,-80.688552,Active,True
+CUST000318,Canyon Cafe 0318,Retail,SO0005,ASM002,Area Sales Manager 002,MDM079,Market Development Manager 079,4,39.488877,-104.569403,Active,True
+CUST000319,Evergreen Mart 0319,Convenience Retail,SO0027,ASM007,Area Sales Manager 007,MDM080,Market Development Manager 080,3,32.793697,-96.900037,Active,True
+CUST000320,Lakeside Store 0320,Institutional,SO0035,ASM009,Area Sales Manager 009,MDM081,Market Development Manager 081,3,41.970254,-70.817075,Active,True
+CUST000321,Summit Market 0321,Convenience Retail,SO0027,ASM007,Area Sales Manager 007,MDM082,Market Development Manager 082,3,32.852193,-96.978348,Active,True
+CUST000322,Canyon Cafe 0322,Retail,SO0014,ASM004,Area Sales Manager 004,MDM083,Market Development Manager 083,2,45.505565,-122.243488,Active,True
+CUST000323,Central Dining 0323,Retail,SO0025,ASM007,Area Sales Manager 007,MDM084,Market Development Manager 084,4,32.801053,-96.598055,Active,True
+CUST000324,Summit Market 0324,Convenience Retail,SO0045,ASM012,Area Sales Manager 012,MDM085,Market Development Manager 085,4,35.198225,-81.052114,Active,True
+CUST000325,Canyon Cafe 0325,Restaurant,SO0037,ASM010,Area Sales Manager 010,MDM086,Market Development Manager 086,3,40.884089,-73.788159,Active,True
+CUST000326,Summit Market 0326,Institutional,SO0031,ASM008,Area Sales Manager 008,MDM087,Market Development Manager 087,3,35.560863,-97.6723,Active,True
+CUST000327,Pioneer Retail 0327,Club,SO0023,ASM006,Area Sales Manager 006,MDM088,Market Development Manager 088,1,42.736418,-82.954875,Active,True
+CUST000328,Canyon Cafe 0328,Club,SO0025,ASM007,Area Sales Manager 007,MDM089,Market Development Manager 089,4,32.234046,-97.300526,Active,True
+CUST000329,Mountain Club 0329,Convenience Retail,SO0035,ASM009,Area Sales Manager 009,MDM090,Market Development Manager 090,1,42.422712,-71.390499,Active,True
+CUST000330,Metro Foods 0330,Restaurant,SO0039,ASM010,Area Sales Manager 010,MDM091,Market Development Manager 091,2,40.94175,-74.129973,Active,True
+CUST000331,Metro Foods 0331,Retail,SO0032,ASM009,Area Sales Manager 009,MDM092,Market Development Manager 092,4,34.935301,-97.45199,Active,True
+CUST000332,Canyon Cafe 0332,Institutional,SO0018,ASM005,Area Sales Manager 005,MDM093,Market Development Manager 093,5,41.712746,-87.919166,Active,True
+CUST000333,Summit Market 0333,Convenience Retail,SO0032,ASM009,Area Sales Manager 009,MDM094,Market Development Manager 094,4,34.946499,-97.362832,Active,True
+CUST000334,Evergreen Mart 0334,Convenience Retail,SO0025,ASM007,Area Sales Manager 007,MDM095,Market Development Manager 095,3,32.156523,-97.046105,Active,True
+CUST000335,Canyon Cafe 0335,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM096,Market Development Manager 096,2,33.662119,-84.683,Active,True
+CUST000336,Valley Grocery 0336,Restaurant,SO0047,ASM012,Area Sales Manager 012,MDM097,Market Development Manager 097,4,35.328089,-80.701735,Active,True
+CUST000337,Valley Grocery 0337,Restaurant,SO0030,ASM008,Area Sales Manager 008,MDM098,Market Development Manager 098,1,35.561611,-97.887664,Active,True
+CUST000338,Mountain Club 0338,Convenience Retail,SO0040,ASM011,Area Sales Manager 011,MDM099,Market Development Manager 099,2,40.595511,-74.177962,Active,True
+CUST000339,Canyon Cafe 0339,Convenience Retail,SO0002,ASM001,Area Sales Manager 001,MDM100,Market Development Manager 100,1,41.002667,-111.817767,Active,True
+CUST000340,Central Dining 0340,Retail,SO0038,ASM010,Area Sales Manager 010,MDM101,Market Development Manager 101,1,40.921207,-74.641897,Active,True
+CUST000341,Summit Market 0341,Retail,SO0043,ASM011,Area Sales Manager 011,MDM102,Market Development Manager 102,5,33.816524,-84.285007,Active,True
+CUST000342,Canyon Cafe 0342,Institutional,SO0006,ASM002,Area Sales Manager 002,MDM103,Market Development Manager 103,1,39.903672,-104.312614,Active,True
+CUST000343,Lakeside Store 0343,Convenience Retail,SO0009,ASM003,Area Sales Manager 003,MDM104,Market Development Manager 104,3,47.713149,-122.222352,Active,True
+CUST000344,Summit Market 0344,Convenience Retail,SO0012,ASM004,Area Sales Manager 004,MDM105,Market Development Manager 105,5,48.183661,-122.250389,Active,True
+CUST000345,Canyon Cafe 0345,Convenience Retail,SO0017,ASM005,Area Sales Manager 005,MDM106,Market Development Manager 106,2,41.850814,-87.69302,Active,True
+CUST000346,Metro Foods 0346,Institutional,SO0021,ASM006,Area Sales Manager 006,MDM107,Market Development Manager 107,4,42.419557,-82.567561,Active,True
+CUST000347,Evergreen Mart 0347,Retail,SO0030,ASM008,Area Sales Manager 008,MDM108,Market Development Manager 108,3,35.340824,-97.618985,Active,True
+CUST000348,Canyon Cafe 0348,Convenience Retail,SO0022,ASM006,Area Sales Manager 006,MDM109,Market Development Manager 109,3,42.560478,-83.479102,Active,True
+CUST000349,Canyon Cafe 0349,Retail,SO0018,ASM005,Area Sales Manager 005,MDM110,Market Development Manager 110,2,41.972337,-87.911547,Active,True
+CUST000350,Corner Stop 0350,Retail,SO0017,ASM005,Area Sales Manager 005,MDM111,Market Development Manager 111,4,42.117998,-88.008489,Active,True
+CUST000351,Summit Market 0351,Institutional,SO0031,ASM008,Area Sales Manager 008,MDM112,Market Development Manager 112,4,35.066282,-97.522474,Active,True
+CUST000352,Mountain Club 0352,Restaurant,SO0048,ASM013,Area Sales Manager 013,MDM113,Market Development Manager 113,3,35.271415,-80.770292,Active,True
+CUST000353,Evergreen Mart 0353,Institutional,SO0004,ASM002,Area Sales Manager 002,MDM114,Market Development Manager 114,4,40.044036,-111.97036,Active,True
+CUST000354,Corner Stop 0354,Retail,SO0015,ASM004,Area Sales Manager 004,MDM115,Market Development Manager 115,2,45.538746,-122.366211,Active,True
+CUST000355,Summit Market 0355,Club,SO0042,ASM011,Area Sales Manager 011,MDM116,Market Development Manager 116,4,33.520044,-84.555978,Active,True
+CUST000356,Metro Foods 0356,Convenience Retail,SO0002,ASM001,Area Sales Manager 001,MDM117,Market Development Manager 117,1,40.876353,-112.358805,Active,True
+CUST000357,Summit Market 0357,Institutional,SO0013,ASM004,Area Sales Manager 004,MDM118,Market Development Manager 118,2,45.469575,-122.534513,Active,True
+CUST000358,Valley Grocery 0358,Institutional,SO0040,ASM011,Area Sales Manager 011,MDM119,Market Development Manager 119,2,40.654704,-74.223417,Active,True
+CUST000359,Valley Grocery 0359,Club,SO0016,ASM005,Area Sales Manager 005,MDM120,Market Development Manager 120,2,45.688868,-122.614423,Active,True
+CUST000360,Corner Stop 0360,Convenience Retail,SO0031,ASM008,Area Sales Manager 008,MDM001,Market Development Manager 001,3,35.5959,-97.621112,Active,True
+CUST000361,Metro Foods 0361,Convenience Retail,SO0037,ASM010,Area Sales Manager 010,MDM002,Market Development Manager 002,4,41.050934,-73.830423,Active,True
+CUST000362,Pioneer Retail 0362,Retail,SO0030,ASM008,Area Sales Manager 008,MDM003,Market Development Manager 003,2,35.716473,-97.273615,Active,True
+CUST000363,Valley Grocery 0363,Retail,SO0024,ASM007,Area Sales Manager 007,MDM004,Market Development Manager 004,4,42.279048,-82.948167,Active,True
+CUST000364,Central Dining 0364,Retail,SO0039,ASM010,Area Sales Manager 010,MDM005,Market Development Manager 005,3,40.507839,-73.966293,Active,True
+CUST000365,Corner Stop 0365,Retail,SO0048,ASM013,Area Sales Manager 013,MDM006,Market Development Manager 006,4,35.413475,-80.910832,Active,True
+CUST000366,Pioneer Retail 0366,Retail,SO0011,ASM003,Area Sales Manager 003,MDM007,Market Development Manager 007,1,47.197334,-122.272863,Active,True
+CUST000367,Central Dining 0367,Convenience Retail,SO0007,ASM002,Area Sales Manager 002,MDM008,Market Development Manager 008,3,39.000295,-105.302129,Active,True
+CUST000368,Pioneer Retail 0368,Convenience Retail,SO0002,ASM001,Area Sales Manager 001,MDM009,Market Development Manager 009,3,40.850948,-112.238671,Active,True
+CUST000369,Canyon Cafe 0369,Retail,SO0037,ASM010,Area Sales Manager 010,MDM010,Market Development Manager 010,3,40.80821,-73.590955,Active,True
+CUST000370,Metro Foods 0370,Convenience Retail,SO0026,ASM007,Area Sales Manager 007,MDM011,Market Development Manager 011,4,32.628395,-96.878386,Active,True
+CUST000371,Central Dining 0371,Restaurant,SO0005,ASM002,Area Sales Manager 002,MDM012,Market Development Manager 012,3,39.640389,-104.623505,Active,True
+CUST000372,Metro Foods 0372,Convenience Retail,SO0045,ASM012,Area Sales Manager 012,MDM013,Market Development Manager 013,4,35.249786,-80.39677,Active,True
+CUST000373,Pioneer Retail 0373,Convenience Retail,SO0007,ASM002,Area Sales Manager 002,MDM014,Market Development Manager 014,3,39.558047,-105.20374,Active,True
+CUST000374,Central Dining 0374,Convenience Retail,SO0044,ASM012,Area Sales Manager 012,MDM015,Market Development Manager 015,4,33.759064,-84.709598,Active,True
+CUST000375,Central Dining 0375,Convenience Retail,SO0008,ASM003,Area Sales Manager 003,MDM016,Market Development Manager 016,2,39.297294,-104.962929,Active,True
+CUST000376,Evergreen Mart 0376,Retail,SO0003,ASM001,Area Sales Manager 001,MDM017,Market Development Manager 017,3,40.195696,-111.93869,Active,True
+CUST000377,Canyon Cafe 0377,Retail,SO0035,ASM009,Area Sales Manager 009,MDM018,Market Development Manager 018,1,41.995816,-71.156569,Active,True
+CUST000378,Evergreen Mart 0378,Retail,SO0043,ASM011,Area Sales Manager 011,MDM019,Market Development Manager 019,2,33.889828,-84.359354,Active,True
+CUST000379,Mountain Club 0379,Restaurant,SO0005,ASM002,Area Sales Manager 002,MDM020,Market Development Manager 020,4,39.536828,-104.770785,Active,True
+CUST000380,Evergreen Mart 0380,Convenience Retail,SO0042,ASM011,Area Sales Manager 011,MDM021,Market Development Manager 021,2,33.793685,-84.542073,Active,True
+CUST000381,Canyon Cafe 0381,Retail,SO0001,ASM001,Area Sales Manager 001,MDM022,Market Development Manager 022,3,40.492875,-111.979404,Active,True
+CUST000382,Corner Stop 0382,Convenience Retail,SO0032,ASM009,Area Sales Manager 009,MDM023,Market Development Manager 023,4,35.180079,-97.338406,Active,True
+CUST000383,Evergreen Mart 0383,Convenience Retail,SO0028,ASM008,Area Sales Manager 008,MDM024,Market Development Manager 024,4,32.620549,-96.465713,Active,True
+CUST000384,Lakeside Store 0384,Retail,SO0041,ASM011,Area Sales Manager 011,MDM025,Market Development Manager 025,3,33.87368,-84.914798,Active,True
+CUST000385,Valley Grocery 0385,Restaurant,SO0046,ASM012,Area Sales Manager 012,MDM026,Market Development Manager 026,2,35.260187,-80.826122,Active,True
+CUST000386,Valley Grocery 0386,Convenience Retail,SO0028,ASM008,Area Sales Manager 008,MDM027,Market Development Manager 027,2,32.277333,-97.217582,Active,True
+CUST000387,Mountain Club 0387,Restaurant,SO0047,ASM012,Area Sales Manager 012,MDM028,Market Development Manager 028,5,35.555106,-80.921894,Active,True
+CUST000388,Pioneer Retail 0388,Restaurant,SO0042,ASM011,Area Sales Manager 011,MDM029,Market Development Manager 029,5,33.061581,-84.446531,Active,True
+CUST000389,Mountain Club 0389,Restaurant,SO0040,ASM011,Area Sales Manager 011,MDM030,Market Development Manager 030,4,41.00542,-73.87277,Active,True
+CUST000390,Lakeside Store 0390,Club,SO0031,ASM008,Area Sales Manager 008,MDM031,Market Development Manager 031,3,35.62192,-97.37756,Active,True
+CUST000391,Central Dining 0391,Convenience Retail,SO0028,ASM008,Area Sales Manager 008,MDM032,Market Development Manager 032,3,32.485493,-96.294811,Active,True
+CUST000392,Evergreen Mart 0392,Retail,SO0018,ASM005,Area Sales Manager 005,MDM033,Market Development Manager 033,4,41.456263,-87.862366,Active,True
+CUST000393,Corner Stop 0393,Restaurant,SO0016,ASM005,Area Sales Manager 005,MDM034,Market Development Manager 034,4,45.725181,-122.619161,Active,True
+CUST000394,Lakeside Store 0394,Retail,SO0018,ASM005,Area Sales Manager 005,MDM035,Market Development Manager 035,3,41.818935,-88.074985,Active,True
+CUST000395,Lakeside Store 0395,Convenience Retail,SO0016,ASM005,Area Sales Manager 005,MDM036,Market Development Manager 036,2,45.614077,-123.070165,Active,True
+CUST000396,Central Dining 0396,Club,SO0037,ASM010,Area Sales Manager 010,MDM037,Market Development Manager 037,5,40.644333,-74.516378,Active,True
+CUST000397,Canyon Cafe 0397,Convenience Retail,SO0043,ASM011,Area Sales Manager 011,MDM038,Market Development Manager 038,2,33.941883,-84.18572,Active,True
+CUST000398,Summit Market 0398,Retail,SO0022,ASM006,Area Sales Manager 006,MDM039,Market Development Manager 039,5,42.366381,-83.249944,Active,True
+CUST000399,Evergreen Mart 0399,Restaurant,SO0032,ASM009,Area Sales Manager 009,MDM040,Market Development Manager 040,2,35.308897,-97.807268,Active,True
+CUST000400,Lakeside Store 0400,Retail,SO0012,ASM004,Area Sales Manager 004,MDM041,Market Development Manager 041,3,47.209425,-122.325818,Active,True
+CUST000401,Evergreen Mart 0401,Restaurant,SO0014,ASM004,Area Sales Manager 004,MDM042,Market Development Manager 042,4,45.511965,-123.0418,Active,True
+CUST000402,Evergreen Mart 0402,Retail,SO0017,ASM005,Area Sales Manager 005,MDM043,Market Development Manager 043,1,42.135295,-88.183347,Active,True
+CUST000403,Central Dining 0403,Club,SO0018,ASM005,Area Sales Manager 005,MDM044,Market Development Manager 044,2,41.839844,-87.492249,Active,True
+CUST000404,Pioneer Retail 0404,Retail,SO0045,ASM012,Area Sales Manager 012,MDM045,Market Development Manager 045,3,34.821872,-81.429186,Active,True
+CUST000405,Summit Market 0405,Retail,SO0036,ASM010,Area Sales Manager 010,MDM046,Market Development Manager 046,2,42.246218,-71.405511,Active,True
+CUST000406,Metro Foods 0406,Restaurant,SO0034,ASM009,Area Sales Manager 009,MDM047,Market Development Manager 047,3,42.177706,-70.964407,Active,True
+CUST000407,Metro Foods 0407,Convenience Retail,SO0006,ASM002,Area Sales Manager 002,MDM048,Market Development Manager 048,3,39.79885,-104.595858,Active,True
+CUST000408,Canyon Cafe 0408,Convenience Retail,SO0047,ASM012,Area Sales Manager 012,MDM049,Market Development Manager 049,4,35.510272,-80.526965,Active,True
+CUST000409,Mountain Club 0409,Retail,SO0032,ASM009,Area Sales Manager 009,MDM050,Market Development Manager 050,2,35.80713,-97.38938,Active,True
+CUST000410,Lakeside Store 0410,Restaurant,SO0016,ASM005,Area Sales Manager 005,MDM051,Market Development Manager 051,5,45.41925,-122.606345,Active,True
+CUST000411,Lakeside Store 0411,Retail,SO0042,ASM011,Area Sales Manager 011,MDM052,Market Development Manager 052,2,33.76865,-84.557518,Active,True
+CUST000412,Summit Market 0412,Convenience Retail,SO0029,ASM008,Area Sales Manager 008,MDM053,Market Development Manager 053,2,35.023353,-97.435397,Active,True
+CUST000413,Pioneer Retail 0413,Club,SO0006,ASM002,Area Sales Manager 002,MDM054,Market Development Manager 054,2,39.750839,-104.799836,Active,True
+CUST000414,Canyon Cafe 0414,Retail,SO0015,ASM004,Area Sales Manager 004,MDM055,Market Development Manager 055,5,45.798213,-123.264474,Active,True
+CUST000415,Metro Foods 0415,Retail,SO0045,ASM012,Area Sales Manager 012,MDM056,Market Development Manager 056,1,35.496561,-81.148069,Active,True
+CUST000416,Central Dining 0416,Convenience Retail,SO0020,ASM006,Area Sales Manager 006,MDM057,Market Development Manager 057,4,41.873841,-87.559033,Active,True
+CUST000417,Lakeside Store 0417,Institutional,SO0024,ASM007,Area Sales Manager 007,MDM058,Market Development Manager 058,4,42.574855,-83.04373,Active,True
+CUST000418,Mountain Club 0418,Convenience Retail,SO0036,ASM010,Area Sales Manager 010,MDM059,Market Development Manager 059,4,42.485862,-71.662427,Active,True
+CUST000419,Canyon Cafe 0419,Retail,SO0023,ASM006,Area Sales Manager 006,MDM060,Market Development Manager 060,2,42.344764,-83.075592,Active,True
+CUST000420,Mountain Club 0420,Convenience Retail,SO0048,ASM013,Area Sales Manager 013,MDM061,Market Development Manager 061,3,35.053565,-80.969751,Active,True
+CUST000421,Evergreen Mart 0421,Retail,SO0022,ASM006,Area Sales Manager 006,MDM062,Market Development Manager 062,4,42.234993,-83.104912,Active,True
+CUST000422,Lakeside Store 0422,Retail,SO0045,ASM012,Area Sales Manager 012,MDM063,Market Development Manager 063,4,34.787146,-80.655151,Active,True
+CUST000423,Pioneer Retail 0423,Restaurant,SO0018,ASM005,Area Sales Manager 005,MDM064,Market Development Manager 064,5,41.603066,-87.655466,Active,True
+CUST000424,Metro Foods 0424,Convenience Retail,SO0017,ASM005,Area Sales Manager 005,MDM065,Market Development Manager 065,5,41.704047,-87.573808,Active,True
+CUST000425,Metro Foods 0425,Restaurant,SO0008,ASM003,Area Sales Manager 003,MDM066,Market Development Manager 066,2,39.56453,-105.01263,Active,True
+CUST000426,Corner Stop 0426,Institutional,SO0021,ASM006,Area Sales Manager 006,MDM067,Market Development Manager 067,4,42.443905,-83.102655,Active,True
+CUST000427,Mountain Club 0427,Retail,SO0048,ASM013,Area Sales Manager 013,MDM068,Market Development Manager 068,3,35.318231,-81.024604,Active,True
+CUST000428,Valley Grocery 0428,Club,SO0045,ASM012,Area Sales Manager 012,MDM069,Market Development Manager 069,2,34.970747,-80.977553,Active,True
+CUST000429,Metro Foods 0429,Convenience Retail,SO0013,ASM004,Area Sales Manager 004,MDM070,Market Development Manager 070,1,45.675253,-122.812979,Active,True
+CUST000430,Lakeside Store 0430,Club,SO0048,ASM013,Area Sales Manager 013,MDM071,Market Development Manager 071,3,35.445364,-80.976803,Active,True
+CUST000431,Central Dining 0431,Convenience Retail,SO0018,ASM005,Area Sales Manager 005,MDM072,Market Development Manager 072,2,41.532613,-87.762769,Active,True
+CUST000432,Central Dining 0432,Retail,SO0034,ASM009,Area Sales Manager 009,MDM073,Market Development Manager 073,3,42.243658,-70.465248,Active,True
+CUST000433,Corner Stop 0433,Retail,SO0019,ASM005,Area Sales Manager 005,MDM074,Market Development Manager 074,1,41.596112,-87.75315,Active,True
+CUST000434,Pioneer Retail 0434,Convenience Retail,SO0013,ASM004,Area Sales Manager 004,MDM075,Market Development Manager 075,4,45.574407,-122.202673,Active,True
+CUST000435,Evergreen Mart 0435,Convenience Retail,SO0015,ASM004,Area Sales Manager 004,MDM076,Market Development Manager 076,3,45.77143,-122.719388,Active,True
+CUST000436,Pioneer Retail 0436,Restaurant,SO0012,ASM004,Area Sales Manager 004,MDM077,Market Development Manager 077,2,47.766448,-122.360392,Active,True
+CUST000437,Mountain Club 0437,Institutional,SO0001,ASM001,Area Sales Manager 001,MDM078,Market Development Manager 078,5,40.61488,-112.023107,Active,True
+CUST000438,Pioneer Retail 0438,Retail,SO0009,ASM003,Area Sales Manager 003,MDM079,Market Development Manager 079,2,47.868029,-122.681522,Active,True
+CUST000439,Summit Market 0439,Club,SO0003,ASM001,Area Sales Manager 001,MDM080,Market Development Manager 080,5,41.042639,-111.866599,Active,True
+CUST000440,Pioneer Retail 0440,Restaurant,SO0036,ASM010,Area Sales Manager 010,MDM081,Market Development Manager 081,3,42.378419,-71.049519,Active,True
+CUST000441,Valley Grocery 0441,Restaurant,SO0045,ASM012,Area Sales Manager 012,MDM082,Market Development Manager 082,3,35.173506,-81.203595,Active,True
+CUST000442,Lakeside Store 0442,Convenience Retail,SO0041,ASM011,Area Sales Manager 011,MDM083,Market Development Manager 083,2,33.406916,-84.435389,Active,True
+CUST000443,Summit Market 0443,Restaurant,SO0007,ASM002,Area Sales Manager 002,MDM084,Market Development Manager 084,2,39.642042,-104.620952,Active,True
+CUST000444,Pioneer Retail 0444,Restaurant,SO0037,ASM010,Area Sales Manager 010,MDM085,Market Development Manager 085,2,40.903507,-74.366063,Active,True
+CUST000445,Lakeside Store 0445,Club,SO0031,ASM008,Area Sales Manager 008,MDM086,Market Development Manager 086,4,35.344663,-97.293186,Active,True
+CUST000446,Evergreen Mart 0446,Convenience Retail,SO0029,ASM008,Area Sales Manager 008,MDM087,Market Development Manager 087,5,35.303507,-97.65781,Active,True
+CUST000447,Summit Market 0447,Retail,SO0012,ASM004,Area Sales Manager 004,MDM088,Market Development Manager 088,3,48.033686,-121.765189,Active,True
+CUST000448,Lakeside Store 0448,Convenience Retail,SO0017,ASM005,Area Sales Manager 005,MDM089,Market Development Manager 089,1,41.58405,-87.824201,Active,True
+CUST000449,Corner Stop 0449,Convenience Retail,SO0008,ASM003,Area Sales Manager 003,MDM090,Market Development Manager 090,1,39.476228,-105.026371,Active,True
+CUST000450,Lakeside Store 0450,Retail,SO0026,ASM007,Area Sales Manager 007,MDM091,Market Development Manager 091,2,32.547262,-96.094608,Active,True
+CUST000451,Central Dining 0451,Retail,SO0005,ASM002,Area Sales Manager 002,MDM092,Market Development Manager 092,4,39.626354,-104.972296,Active,True
+CUST000452,Summit Market 0452,Convenience Retail,SO0041,ASM011,Area Sales Manager 011,MDM093,Market Development Manager 093,3,34.028875,-84.313771,Active,True
+CUST000453,Valley Grocery 0453,Convenience Retail,SO0010,ASM003,Area Sales Manager 003,MDM094,Market Development Manager 094,3,47.325842,-121.966511,Active,True
+CUST000454,Pioneer Retail 0454,Club,SO0037,ASM010,Area Sales Manager 010,MDM095,Market Development Manager 095,3,40.126606,-74.418254,Active,True
+CUST000455,Metro Foods 0455,Convenience Retail,SO0006,ASM002,Area Sales Manager 002,MDM096,Market Development Manager 096,3,40.016492,-105.388303,Active,True
+CUST000456,Mountain Club 0456,Retail,SO0008,ASM003,Area Sales Manager 003,MDM097,Market Development Manager 097,2,39.324616,-104.992276,Active,True
+CUST000457,Central Dining 0457,Convenience Retail,SO0027,ASM007,Area Sales Manager 007,MDM098,Market Development Manager 098,4,32.31366,-96.878425,Active,True
+CUST000458,Central Dining 0458,Convenience Retail,SO0039,ASM010,Area Sales Manager 010,MDM099,Market Development Manager 099,2,40.594832,-74.283153,Active,True
+CUST000459,Mountain Club 0459,Convenience Retail,SO0015,ASM004,Area Sales Manager 004,MDM100,Market Development Manager 100,2,45.439093,-122.780812,Active,True
+CUST000460,Lakeside Store 0460,Restaurant,SO0025,ASM007,Area Sales Manager 007,MDM101,Market Development Manager 101,2,32.895959,-96.797141,Active,True
+CUST000461,Pioneer Retail 0461,Restaurant,SO0029,ASM008,Area Sales Manager 008,MDM102,Market Development Manager 102,4,34.979396,-98.009858,Active,True
+CUST000462,Canyon Cafe 0462,Retail,SO0038,ASM010,Area Sales Manager 010,MDM103,Market Development Manager 103,2,40.778244,-74.287932,Active,True
+CUST000463,Central Dining 0463,Institutional,SO0020,ASM006,Area Sales Manager 006,MDM104,Market Development Manager 104,5,41.999096,-87.695007,Active,True
+CUST000464,Summit Market 0464,Restaurant,SO0040,ASM011,Area Sales Manager 011,MDM105,Market Development Manager 105,5,41.041132,-74.01126,Active,True
+CUST000465,Corner Stop 0465,Restaurant,SO0040,ASM011,Area Sales Manager 011,MDM106,Market Development Manager 106,2,40.950832,-73.782696,Active,True
+CUST000466,Metro Foods 0466,Institutional,SO0014,ASM004,Area Sales Manager 004,MDM107,Market Development Manager 107,5,45.702018,-122.664047,Active,True
+CUST000467,Corner Stop 0467,Retail,SO0017,ASM005,Area Sales Manager 005,MDM108,Market Development Manager 108,3,42.022765,-87.607809,Active,True
+CUST000468,Metro Foods 0468,Convenience Retail,SO0011,ASM003,Area Sales Manager 003,MDM109,Market Development Manager 109,3,47.97577,-122.557273,Active,True
+CUST000469,Mountain Club 0469,Retail,SO0012,ASM004,Area Sales Manager 004,MDM110,Market Development Manager 110,1,47.825939,-122.706443,Active,True
+CUST000470,Valley Grocery 0470,Convenience Retail,SO0005,ASM002,Area Sales Manager 002,MDM111,Market Development Manager 111,2,39.747374,-105.269876,Active,True
+CUST000471,Canyon Cafe 0471,Club,SO0001,ASM001,Area Sales Manager 001,MDM112,Market Development Manager 112,2,40.600414,-111.833179,Active,True
+CUST000472,Central Dining 0472,Retail,SO0029,ASM008,Area Sales Manager 008,MDM113,Market Development Manager 113,1,35.586382,-97.689383,Active,True
+CUST000473,Pioneer Retail 0473,Club,SO0031,ASM008,Area Sales Manager 008,MDM114,Market Development Manager 114,4,35.565944,-97.865641,Active,True
+CUST000474,Metro Foods 0474,Convenience Retail,SO0003,ASM001,Area Sales Manager 001,MDM115,Market Development Manager 115,3,41.113928,-111.634975,Active,True
+CUST000475,Pioneer Retail 0475,Restaurant,SO0019,ASM005,Area Sales Manager 005,MDM116,Market Development Manager 116,1,41.825842,-87.460169,Active,True
+CUST000476,Lakeside Store 0476,Convenience Retail,SO0045,ASM012,Area Sales Manager 012,MDM117,Market Development Manager 117,2,35.445084,-80.983552,Active,True
+CUST000477,Metro Foods 0477,Convenience Retail,SO0005,ASM002,Area Sales Manager 002,MDM118,Market Development Manager 118,3,39.473082,-105.447399,Active,True
+CUST000478,Central Dining 0478,Retail,SO0017,ASM005,Area Sales Manager 005,MDM119,Market Development Manager 119,3,42.234432,-88.036321,Active,True
+CUST000479,Metro Foods 0479,Club,SO0043,ASM011,Area Sales Manager 011,MDM120,Market Development Manager 120,2,33.634798,-84.362638,Active,True
+CUST000480,Corner Stop 0480,Convenience Retail,SO0028,ASM008,Area Sales Manager 008,MDM001,Market Development Manager 001,3,32.51081,-96.747091,Active,True
+CUST000481,Metro Foods 0481,Restaurant,SO0035,ASM009,Area Sales Manager 009,MDM002,Market Development Manager 002,4,42.616228,-71.254695,Active,True
+CUST000482,Valley Grocery 0482,Convenience Retail,SO0042,ASM011,Area Sales Manager 011,MDM003,Market Development Manager 003,2,33.682397,-84.533398,Active,True
+CUST000483,Valley Grocery 0483,Convenience Retail,SO0018,ASM005,Area Sales Manager 005,MDM004,Market Development Manager 004,3,41.765607,-87.898734,Active,True
+CUST000484,Summit Market 0484,Restaurant,SO0005,ASM002,Area Sales Manager 002,MDM005,Market Development Manager 005,2,39.889934,-105.022807,Active,True
+CUST000485,Pioneer Retail 0485,Restaurant,SO0011,ASM003,Area Sales Manager 003,MDM006,Market Development Manager 006,5,47.614293,-122.295269,Active,True
+CUST000486,Central Dining 0486,Institutional,SO0039,ASM010,Area Sales Manager 010,MDM007,Market Development Manager 007,5,40.540592,-74.044945,Active,True
+CUST000487,Lakeside Store 0487,Club,SO0019,ASM005,Area Sales Manager 005,MDM008,Market Development Manager 008,4,42.175676,-88.391708,Active,True
+CUST000488,Lakeside Store 0488,Convenience Retail,SO0008,ASM003,Area Sales Manager 003,MDM009,Market Development Manager 009,3,39.659878,-105.356846,Active,True
+CUST000489,Pioneer Retail 0489,Club,SO0045,ASM012,Area Sales Manager 012,MDM010,Market Development Manager 010,4,34.746724,-80.560852,Active,True
+CUST000490,Canyon Cafe 0490,Convenience Retail,SO0045,ASM012,Area Sales Manager 012,MDM011,Market Development Manager 011,2,35.081321,-81.097406,Active,True
+CUST000491,Mountain Club 0491,Retail,SO0018,ASM005,Area Sales Manager 005,MDM012,Market Development Manager 012,2,41.44831,-87.730698,Active,True
+CUST000492,Lakeside Store 0492,Institutional,SO0035,ASM009,Area Sales Manager 009,MDM013,Market Development Manager 013,4,42.022575,-70.657843,Active,True
+CUST000493,Corner Stop 0493,Retail,SO0029,ASM008,Area Sales Manager 008,MDM014,Market Development Manager 014,4,35.298281,-97.716805,Active,True
+CUST000494,Summit Market 0494,Restaurant,SO0039,ASM010,Area Sales Manager 010,MDM015,Market Development Manager 015,2,40.428721,-74.717492,Active,True
+CUST000495,Evergreen Mart 0495,Retail,SO0028,ASM008,Area Sales Manager 008,MDM016,Market Development Manager 016,1,32.58866,-97.024276,Active,True
+CUST000496,Pioneer Retail 0496,Club,SO0039,ASM010,Area Sales Manager 010,MDM017,Market Development Manager 017,3,40.749803,-74.111057,Active,True
+CUST000497,Corner Stop 0497,Retail,SO0002,ASM001,Area Sales Manager 001,MDM018,Market Development Manager 018,4,40.814626,-112.147132,Active,True
+CUST000498,Central Dining 0498,Convenience Retail,SO0015,ASM004,Area Sales Manager 004,MDM019,Market Development Manager 019,5,45.443608,-122.824913,Active,True
+CUST000499,Summit Market 0499,Restaurant,SO0038,ASM010,Area Sales Manager 010,MDM020,Market Development Manager 020,3,40.667977,-74.231433,Active,True
+CUST000500,Pioneer Retail 0500,Convenience Retail,SO0044,ASM012,Area Sales Manager 012,MDM021,Market Development Manager 021,1,33.808597,-84.410153,Active,True

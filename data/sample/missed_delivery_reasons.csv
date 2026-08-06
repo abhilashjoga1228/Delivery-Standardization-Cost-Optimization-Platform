@@ -1,0 +1,9 @@
+missed_reason_code,missed_reason_name,reason_category,control_classification,active_flag
+CUSTOMER_CLOSED,Customer Closed,Customer,Uncontrollable,True
+TRAFFIC,Traffic,External Conditions,Uncontrollable,True
+SCHOOL_ZONE,School Zone,Road Restriction,Uncontrollable,True
+NO_LEFT_TURN,No Left Turn,Road Restriction,Uncontrollable,True
+WEATHER,Weather,External Conditions,Uncontrollable,True
+VEHICLE_BREAKDOWN,Vehicle Breakdown,Fleet,Controllable,True
+CUSTOMER_REFUSED,Customer Refused,Customer,Uncontrollable,True
+DRIVER_DELAY,Driver Delay,Operations,Controllable,True

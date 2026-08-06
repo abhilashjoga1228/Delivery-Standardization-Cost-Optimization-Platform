@@ -1,0 +1,40 @@
+material_id,material_name,brand_name,product_category,package_type,package_size,unit_of_measure,units_per_case,active_flag
+MAT00001,Classic Cola Can,Classic Cola,Sparkling Beverage,Can,12 oz,CASE,12,True
+MAT00002,Classic Cola Bottle,Classic Cola,Sparkling Beverage,Bottle,20 oz,CASE,6,True
+MAT00003,Classic Cola Fountain,Classic Cola,Sparkling Beverage,Fountain,2 Liter,CASE,18,True
+MAT00004,Diet Cola Can,Diet Cola,Sparkling Beverage,Can,1 Liter,CASE,18,True
+MAT00005,Diet Cola Bottle,Diet Cola,Sparkling Beverage,Bottle,12 oz,CASE,18,True
+MAT00006,Diet Cola Fountain,Diet Cola,Sparkling Beverage,Fountain,2 Liter,CASE,12,True
+MAT00007,Lemon Lime Can,Lemon Lime,Sparkling Beverage,Can,16.9 oz,CASE,6,True
+MAT00008,Lemon Lime Bottle,Lemon Lime,Sparkling Beverage,Bottle,2 Liter,CASE,12,True
+MAT00009,Lemon Lime Fountain,Lemon Lime,Sparkling Beverage,Fountain,1 Liter,CASE,24,True
+MAT00010,Spring Water Can,Spring Water,Water,Can,12 oz,CASE,18,True
+MAT00011,Spring Water Bottle,Spring Water,Water,Bottle,16.9 oz,CASE,12,True
+MAT00012,Spring Water Fountain,Spring Water,Water,Fountain,20 oz,CASE,18,True
+MAT00013,Purified Water Can,Purified Water,Water,Can,20 oz,CASE,18,True
+MAT00014,Purified Water Bottle,Purified Water,Water,Bottle,16.9 oz,CASE,24,True
+MAT00015,Purified Water Fountain,Purified Water,Water,Fountain,2 Liter,CASE,6,True
+MAT00016,Sparkling Water Can,Sparkling Water,Water,Can,12 oz,CASE,18,True
+MAT00017,Sparkling Water Bottle,Sparkling Water,Water,Bottle,1 Liter,CASE,12,True
+MAT00018,Sparkling Water Fountain,Sparkling Water,Water,Fountain,2 Liter,CASE,12,True
+MAT00019,Citrus Sports Can,Citrus Sports,Sports Drink,Can,12 oz,CASE,18,True
+MAT00020,Citrus Sports Bottle,Citrus Sports,Sports Drink,Bottle,1 Liter,CASE,6,True
+MAT00021,Citrus Sports Fountain,Citrus Sports,Sports Drink,Fountain,1 Liter,CASE,18,True
+MAT00022,Berry Sports Can,Berry Sports,Sports Drink,Can,2 Liter,CASE,18,True
+MAT00023,Berry Sports Bottle,Berry Sports,Sports Drink,Bottle,12 oz,CASE,18,True
+MAT00024,Berry Sports Fountain,Berry Sports,Sports Drink,Fountain,2 Liter,CASE,24,True
+MAT00025,Orange Juice Can,Orange Juice,Juice,Can,1 Liter,CASE,6,True
+MAT00026,Orange Juice Bottle,Orange Juice,Juice,Bottle,20 oz,CASE,12,True
+MAT00027,Orange Juice Fountain,Orange Juice,Juice,Fountain,20 oz,CASE,6,True
+MAT00028,Apple Juice Can,Apple Juice,Juice,Can,12 oz,CASE,12,True
+MAT00029,Apple Juice Bottle,Apple Juice,Juice,Bottle,2 Liter,CASE,6,True
+MAT00030,Apple Juice Fountain,Apple Juice,Juice,Fountain,12 oz,CASE,12,True
+MAT00031,Fruit Punch Can,Fruit Punch,Juice,Can,16.9 oz,CASE,24,True
+MAT00032,Fruit Punch Bottle,Fruit Punch,Juice,Bottle,12 oz,CASE,12,True
+MAT00033,Fruit Punch Fountain,Fruit Punch,Juice,Fountain,2 Liter,CASE,24,True
+MAT00034,Original Energy Can,Original Energy,Energy Drink,Can,12 oz,CASE,12,True
+MAT00035,Original Energy Bottle,Original Energy,Energy Drink,Bottle,12 oz,CASE,24,True
+MAT00036,Original Energy Fountain,Original Energy,Energy Drink,Fountain,20 oz,CASE,6,True
+MAT00037,Zero Energy Can,Zero Energy,Energy Drink,Can,12 oz,CASE,6,True
+MAT00038,Zero Energy Bottle,Zero Energy,Energy Drink,Bottle,12 oz,CASE,12,True
+MAT00039,Zero Energy Fountain,Zero Energy,Energy Drink,Fountain,20 oz,CASE,6,True

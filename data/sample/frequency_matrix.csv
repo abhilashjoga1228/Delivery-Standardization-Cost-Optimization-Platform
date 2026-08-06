@@ -1,0 +1,16 @@
+frequency_rule_id,customer_category,minimum_rolling_4_week_cases,maximum_rolling_4_week_cases,recommended_weekly_frequency,effective_start_date,effective_end_date,active_flag
+FR001,Club,0,499.0,2,2025-01-01,,True
+FR002,Club,500,1499.0,3,2025-01-01,,True
+FR003,Club,1500,,5,2025-01-01,,True
+FR004,Retail,0,299.0,1,2025-01-01,,True
+FR005,Retail,300,999.0,2,2025-01-01,,True
+FR006,Retail,1000,,4,2025-01-01,,True
+FR007,Convenience Retail,0,199.0,1,2025-01-01,,True
+FR008,Convenience Retail,200,699.0,2,2025-01-01,,True
+FR009,Convenience Retail,700,,3,2025-01-01,,True
+FR010,Restaurant,0,249.0,1,2025-01-01,,True
+FR011,Restaurant,250,749.0,2,2025-01-01,,True
+FR012,Restaurant,750,,3,2025-01-01,,True
+FR013,Institutional,0,399.0,1,2025-01-01,,True
+FR014,Institutional,400,1199.0,2,2025-01-01,,True
+FR015,Institutional,1200,,4,2025-01-01,,True
