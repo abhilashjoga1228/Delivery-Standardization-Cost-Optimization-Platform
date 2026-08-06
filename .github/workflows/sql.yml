@@ -1,0 +1,24 @@
+name: SQL Validation
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  sql-check:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Verify SQL Files Exist
+        run: |
+          ls fabric/warehouse/ddl
