@@ -427,3 +427,19 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Generated full-size datasets
+data/raw/*.csv
+data/bronze/*.csv
+data/silver/*.csv
+data/gold/*.csv
+
+# Keep placeholder files
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
