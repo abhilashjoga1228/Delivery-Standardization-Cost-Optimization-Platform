@@ -1,19 +1,23 @@
 /*
 ===============================================================================
 Project: Delivery Standardization & Cost Optimization Platform
-File: 02_Create_Facts.sql
+File: 03_Create_Facts.sql
 Platform: Microsoft Fabric Warehouse
 Purpose: Create Gold-layer fact and bridge tables
 ===============================================================================
 
-Prerequisite:
-- Execute 01_Create_Dimensions.sql first.
-- The gold schema and all dimension tables must already exist.
+Prerequisites:
+- Run 01_Create_Schema.sql first.
+- Run 02_Create_Dimensions.sql before this script.
 
-Important:
-- Primary and foreign keys are metadata constraints.
-- Fabric Warehouse does not enforce these relationships.
-- Duplicate and orphan-key validation will be implemented separately.
+Deployment order:
+1. Create schema
+2. Create dimensions
+3. Create facts
+4. Add primary keys
+5. Add unique keys
+6. Add foreign keys
+7. Run validation tests
 ===============================================================================
 */
 
@@ -52,19 +56,17 @@ CREATE TABLE gold.FactDeliveryOrder
     OrderedCases                DECIMAL(18,2)   NOT NULL,
     DeliveredCases              DECIMAL(18,2)   NOT NULL,
     UndeliveredCases            DECIMAL(18,2)   NOT NULL,
-
     TotalSalesAmount            DECIMAL(18,2)   NOT NULL,
 
     PlannedStopCount            SMALLINT        NOT NULL,
     ActualStopCount             SMALLINT        NOT NULL,
-
     DeliveryDelayMinutes        INT             NULL,
 
     HotshotFlag                 BIT             NOT NULL,
     OffDayFlag                  BIT             NOT NULL,
     OnTimeFlag                  BIT             NOT NULL,
     InFullFlag                  BIT             NOT NULL,
-    OTIF_Flag                   BIT             NOT NULL,
+    OTIFFlag                    BIT             NOT NULL,
     SLAFlag                     BIT             NOT NULL,
     MissedDeliveryFlag          BIT             NOT NULL,
 
@@ -74,79 +76,6 @@ CREATE TABLE gold.FactDeliveryOrder
     CreatedTimestamp            DATETIME2(6)    NOT NULL,
     UpdatedTimestamp            DATETIME2(6)    NULL
 );
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT PK_FactDeliveryOrder
-PRIMARY KEY NONCLUSTERED (DeliveryOrderKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT UQ_FactDeliveryOrder_ID
-UNIQUE NONCLUSTERED (DeliveryOrderID) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_OrderDate
-FOREIGN KEY (OrderDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_PlannedDeliveryDate
-FOREIGN KEY (PlannedDeliveryDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_ActualDeliveryDate
-FOREIGN KEY (ActualDeliveryDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_Customer
-FOREIGN KEY (CustomerKey)
-REFERENCES gold.DimCustomer (CustomerKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_Driver
-FOREIGN KEY (DriverKey)
-REFERENCES gold.DimDriver (DriverKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_Route
-FOREIGN KEY (RouteKey)
-REFERENCES gold.DimRoute (RouteKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_Vehicle
-FOREIGN KEY (VehicleKey)
-REFERENCES gold.DimVehicle (VehicleKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_SalesOrganization
-FOREIGN KEY (SalesOrganizationKey)
-REFERENCES gold.DimSalesOrganization (SalesOrganizationKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDeliveryOrder
-ADD CONSTRAINT FK_FactDeliveryOrder_MissedReason
-FOREIGN KEY (MissedReasonKey)
-REFERENCES gold.DimMissedReason (MissedReasonKey)
-NOT ENFORCED;
 GO
 
 
@@ -194,57 +123,6 @@ CREATE TABLE gold.FactDriverHours
 );
 GO
 
-ALTER TABLE gold.FactDriverHours
-ADD CONSTRAINT PK_FactDriverHours
-PRIMARY KEY NONCLUSTERED (DriverHoursKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDriverHours
-ADD CONSTRAINT UQ_FactDriverHours_Grain
-UNIQUE NONCLUSTERED
-(
-    WorkDateKey,
-    DriverKey,
-    RouteKey,
-    VehicleKey
-) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDriverHours
-ADD CONSTRAINT FK_FactDriverHours_Date
-FOREIGN KEY (WorkDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDriverHours
-ADD CONSTRAINT FK_FactDriverHours_Driver
-FOREIGN KEY (DriverKey)
-REFERENCES gold.DimDriver (DriverKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDriverHours
-ADD CONSTRAINT FK_FactDriverHours_Route
-FOREIGN KEY (RouteKey)
-REFERENCES gold.DimRoute (RouteKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDriverHours
-ADD CONSTRAINT FK_FactDriverHours_Vehicle
-FOREIGN KEY (VehicleKey)
-REFERENCES gold.DimVehicle (VehicleKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactDriverHours
-ADD CONSTRAINT FK_FactDriverHours_SalesOrganization
-FOREIGN KEY (SalesOrganizationKey)
-REFERENCES gold.DimSalesOrganization (SalesOrganizationKey)
-NOT ENFORCED;
-GO
-
 
 /*==============================================================================
   3. FACT CUSTOMER MATERIAL VOLUME
@@ -268,6 +146,7 @@ CREATE TABLE gold.FactCustomerMaterialVolume
 
     CasesSold                   DECIMAL(18,2)   NOT NULL,
     UnitsSold                   DECIMAL(18,2)   NULL,
+
     GrossSalesAmount            DECIMAL(18,2)   NOT NULL,
     DiscountAmount              DECIMAL(18,2)   NULL,
     NetSalesAmount              DECIMAL(18,2)   NOT NULL,
@@ -276,49 +155,6 @@ CREATE TABLE gold.FactCustomerMaterialVolume
     CreatedTimestamp            DATETIME2(6)    NOT NULL,
     UpdatedTimestamp            DATETIME2(6)    NULL
 );
-GO
-
-ALTER TABLE gold.FactCustomerMaterialVolume
-ADD CONSTRAINT PK_FactCustomerMaterialVolume
-PRIMARY KEY NONCLUSTERED
-(CustomerMaterialVolumeKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerMaterialVolume
-ADD CONSTRAINT UQ_FactCustomerMaterialVolume_Transaction
-UNIQUE NONCLUSTERED
-(
-    SalesTransactionID,
-    SalesTransactionLineNumber
-) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerMaterialVolume
-ADD CONSTRAINT FK_FactCustomerMaterialVolume_Date
-FOREIGN KEY (PurchaseDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerMaterialVolume
-ADD CONSTRAINT FK_FactCustomerMaterialVolume_Customer
-FOREIGN KEY (CustomerKey)
-REFERENCES gold.DimCustomer (CustomerKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerMaterialVolume
-ADD CONSTRAINT FK_FactCustomerMaterialVolume_Material
-FOREIGN KEY (MaterialKey)
-REFERENCES gold.DimMaterial (MaterialKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerMaterialVolume
-ADD CONSTRAINT FK_FactCustomerMaterialVolume_SalesOrganization
-FOREIGN KEY (SalesOrganizationKey)
-REFERENCES gold.DimSalesOrganization (SalesOrganizationKey)
-NOT ENFORCED;
 GO
 
 
@@ -361,42 +197,6 @@ CREATE TABLE gold.FactCustomerCostToServe
 );
 GO
 
-ALTER TABLE gold.FactCustomerCostToServe
-ADD CONSTRAINT PK_FactCustomerCostToServe
-PRIMARY KEY NONCLUSTERED
-(CustomerCostToServeKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerCostToServe
-ADD CONSTRAINT UQ_FactCustomerCostToServe_Grain
-UNIQUE NONCLUSTERED
-(
-    ActivityDateKey,
-    CustomerKey
-) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerCostToServe
-ADD CONSTRAINT FK_FactCustomerCostToServe_Date
-FOREIGN KEY (ActivityDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerCostToServe
-ADD CONSTRAINT FK_FactCustomerCostToServe_Customer
-FOREIGN KEY (CustomerKey)
-REFERENCES gold.DimCustomer (CustomerKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactCustomerCostToServe
-ADD CONSTRAINT FK_FactCustomerCostToServe_SalesOrganization
-FOREIGN KEY (SalesOrganizationKey)
-REFERENCES gold.DimSalesOrganization (SalesOrganizationKey)
-NOT ENFORCED;
-GO
-
 
 /*==============================================================================
   5. FACT FREQUENCY RECOMMENDATION
@@ -411,6 +211,8 @@ CREATE TABLE gold.FactFrequencyRecommendation
     RecommendationID                VARCHAR(50)     NOT NULL,
 
     RecommendationDateKey           INT             NOT NULL,
+    ImplementationDateKey           INT             NULL,
+
     CustomerKey                     BIGINT          NOT NULL,
     FrequencyRuleKey                BIGINT          NOT NULL,
     SalesOrganizationKey            BIGINT          NOT NULL,
@@ -424,7 +226,6 @@ CREATE TABLE gold.FactFrequencyRecommendation
 
     EstimatedWeeklyStopsSaved       DECIMAL(18,2)   NOT NULL,
     EstimatedAnnualStopsSaved       DECIMAL(18,2)   NOT NULL,
-
     EstimatedAnnualMilesSaved       DECIMAL(18,2)   NOT NULL,
     EstimatedAnnualDriverHoursSaved DECIMAL(18,2)   NOT NULL,
     EstimatedAnnualFuelSaved        DECIMAL(18,2)   NOT NULL,
@@ -433,7 +234,6 @@ CREATE TABLE gold.FactFrequencyRecommendation
 
     RecommendationStatus            VARCHAR(30)     NOT NULL,
     ImplementationStatus            VARCHAR(30)     NOT NULL,
-    ImplementationDateKey           INT             NULL,
 
     ReviewRequiredFlag              BIT             NOT NULL,
     ApprovedFlag                    BIT             NOT NULL,
@@ -442,61 +242,6 @@ CREATE TABLE gold.FactFrequencyRecommendation
     CreatedTimestamp                DATETIME2(6)    NOT NULL,
     UpdatedTimestamp                DATETIME2(6)    NULL
 );
-GO
-
-ALTER TABLE gold.FactFrequencyRecommendation
-ADD CONSTRAINT PK_FactFrequencyRecommendation
-PRIMARY KEY NONCLUSTERED
-(FrequencyRecommendationKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFrequencyRecommendation
-ADD CONSTRAINT UQ_FactFrequencyRecommendation_ID
-UNIQUE NONCLUSTERED (RecommendationID) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFrequencyRecommendation
-ADD CONSTRAINT UQ_FactFrequencyRecommendation_Grain
-UNIQUE NONCLUSTERED
-(
-    RecommendationDateKey,
-    CustomerKey
-) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFrequencyRecommendation
-ADD CONSTRAINT FK_FactFrequencyRecommendation_Date
-FOREIGN KEY (RecommendationDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFrequencyRecommendation
-ADD CONSTRAINT FK_FactFrequencyRecommendation_ImplementationDate
-FOREIGN KEY (ImplementationDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFrequencyRecommendation
-ADD CONSTRAINT FK_FactFrequencyRecommendation_Customer
-FOREIGN KEY (CustomerKey)
-REFERENCES gold.DimCustomer (CustomerKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFrequencyRecommendation
-ADD CONSTRAINT FK_FactFrequencyRecommendation_FrequencyRule
-FOREIGN KEY (FrequencyRuleKey)
-REFERENCES gold.DimFrequencyMatrix (FrequencyRuleKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFrequencyRecommendation
-ADD CONSTRAINT FK_FactFrequencyRecommendation_SalesOrganization
-FOREIGN KEY (SalesOrganizationKey)
-REFERENCES gold.DimSalesOrganization (SalesOrganizationKey)
-NOT ENFORCED;
 GO
 
 
@@ -528,48 +273,12 @@ CREATE TABLE gold.FactFuelPurchase
     GallonsPurchased            DECIMAL(18,3)   NOT NULL,
     FuelUnitPrice               DECIMAL(18,4)   NOT NULL,
     FuelPurchaseCost            DECIMAL(18,2)   NOT NULL,
-
     OdometerReading             DECIMAL(18,2)   NULL,
 
     SourceSystem                VARCHAR(50)     NOT NULL,
     CreatedTimestamp            DATETIME2(6)    NOT NULL,
     UpdatedTimestamp            DATETIME2(6)    NULL
 );
-GO
-
-ALTER TABLE gold.FactFuelPurchase
-ADD CONSTRAINT PK_FactFuelPurchase
-PRIMARY KEY NONCLUSTERED (FuelPurchaseKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFuelPurchase
-ADD CONSTRAINT UQ_FactFuelPurchase_Line
-UNIQUE NONCLUSTERED
-(
-    PurchaseOrderNumber,
-    PurchaseOrderLineNumber
-) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFuelPurchase
-ADD CONSTRAINT FK_FactFuelPurchase_Date
-FOREIGN KEY (PurchaseDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFuelPurchase
-ADD CONSTRAINT FK_FactFuelPurchase_Vehicle
-FOREIGN KEY (VehicleKey)
-REFERENCES gold.DimVehicle (VehicleKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactFuelPurchase
-ADD CONSTRAINT FK_FactFuelPurchase_SalesOrganization
-FOREIGN KEY (SalesOrganizationKey)
-REFERENCES gold.DimSalesOrganization (SalesOrganizationKey)
-NOT ENFORCED;
 GO
 
 
@@ -617,53 +326,6 @@ CREATE TABLE gold.FactVehicleTelemetry
 );
 GO
 
-ALTER TABLE gold.FactVehicleTelemetry
-ADD CONSTRAINT PK_FactVehicleTelemetry
-PRIMARY KEY NONCLUSTERED
-(VehicleTelemetryKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactVehicleTelemetry
-ADD CONSTRAINT UQ_FactVehicleTelemetry_Event
-UNIQUE NONCLUSTERED
-(TelemetryEventID) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactVehicleTelemetry
-ADD CONSTRAINT FK_FactVehicleTelemetry_Date
-FOREIGN KEY (EventDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactVehicleTelemetry
-ADD CONSTRAINT FK_FactVehicleTelemetry_Vehicle
-FOREIGN KEY (VehicleKey)
-REFERENCES gold.DimVehicle (VehicleKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactVehicleTelemetry
-ADD CONSTRAINT FK_FactVehicleTelemetry_Driver
-FOREIGN KEY (DriverKey)
-REFERENCES gold.DimDriver (DriverKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactVehicleTelemetry
-ADD CONSTRAINT FK_FactVehicleTelemetry_Route
-FOREIGN KEY (RouteKey)
-REFERENCES gold.DimRoute (RouteKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactVehicleTelemetry
-ADD CONSTRAINT FK_FactVehicleTelemetry_SalesOrganization
-FOREIGN KEY (SalesOrganizationKey)
-REFERENCES gold.DimSalesOrganization (SalesOrganizationKey)
-NOT ENFORCED;
-GO
-
 
 /*==============================================================================
   8. FACT ROAD EVENT
@@ -709,37 +371,6 @@ CREATE TABLE gold.FactRoadEvent
 );
 GO
 
-ALTER TABLE gold.FactRoadEvent
-ADD CONSTRAINT PK_FactRoadEvent
-PRIMARY KEY NONCLUSTERED (RoadEventKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactRoadEvent
-ADD CONSTRAINT UQ_FactRoadEvent_ID
-UNIQUE NONCLUSTERED (RoadEventID) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactRoadEvent
-ADD CONSTRAINT FK_FactRoadEvent_Date
-FOREIGN KEY (EventDateKey)
-REFERENCES gold.DimDate (DateKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactRoadEvent
-ADD CONSTRAINT FK_FactRoadEvent_Route
-FOREIGN KEY (RouteKey)
-REFERENCES gold.DimRoute (RouteKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.FactRoadEvent
-ADD CONSTRAINT FK_FactRoadEvent_SalesOrganization
-FOREIGN KEY (SalesOrganizationKey)
-REFERENCES gold.DimSalesOrganization (SalesOrganizationKey)
-NOT ENFORCED;
-GO
-
 
 /*==============================================================================
   9. BRIDGE DELIVERY ROAD EVENT
@@ -748,7 +379,7 @@ GO
   One delivery order x one matched road event.
 
   Purpose:
-  Supports valid many-to-many matching between deliveries and road events.
+  Resolves the many-to-many relationship between delivery orders and road events.
 ==============================================================================*/
 
 CREATE TABLE gold.BridgeDeliveryRoadEvent
@@ -760,7 +391,6 @@ CREATE TABLE gold.BridgeDeliveryRoadEvent
 
     MatchedDelayMinutes         INT             NULL,
     MatchConfidenceScore        DECIMAL(5,4)    NULL,
-
     PrimaryEventFlag            BIT             NOT NULL,
 
     MatchMethod                 VARCHAR(50)     NULL,
@@ -770,45 +400,16 @@ CREATE TABLE gold.BridgeDeliveryRoadEvent
 );
 GO
 
-ALTER TABLE gold.BridgeDeliveryRoadEvent
-ADD CONSTRAINT PK_BridgeDeliveryRoadEvent
-PRIMARY KEY NONCLUSTERED
-(DeliveryRoadEventKey) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.BridgeDeliveryRoadEvent
-ADD CONSTRAINT UQ_BridgeDeliveryRoadEvent_Match
-UNIQUE NONCLUSTERED
-(
-    DeliveryOrderKey,
-    RoadEventKey
-) NOT ENFORCED;
-GO
-
-ALTER TABLE gold.BridgeDeliveryRoadEvent
-ADD CONSTRAINT FK_BridgeDeliveryRoadEvent_Delivery
-FOREIGN KEY (DeliveryOrderKey)
-REFERENCES gold.FactDeliveryOrder (DeliveryOrderKey)
-NOT ENFORCED;
-GO
-
-ALTER TABLE gold.BridgeDeliveryRoadEvent
-ADD CONSTRAINT FK_BridgeDeliveryRoadEvent_RoadEvent
-FOREIGN KEY (RoadEventKey)
-REFERENCES gold.FactRoadEvent (RoadEventKey)
-NOT ENFORCED;
-GO
-
 
 /*==============================================================================
-  10. POST-CREATION VALIDATION
+  10. POST-CREATION CHECK
 
-  Confirms that all fact and bridge tables were created.
+  Confirms that the expected tables exist.
 ==============================================================================*/
 
 SELECT
-    SchemaName = s.name,
-    TableName  = t.name
+    s.name AS SchemaName,
+    t.name AS TableName
 FROM sys.tables AS t
 INNER JOIN sys.schemas AS s
     ON t.schema_id = s.schema_id
