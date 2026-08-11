@@ -2,7 +2,7 @@
 
 An enterprise analytics and data engineering solution designed to standardize customer delivery schedules, identify inefficient deliveries, reduce transportation costs, improve service performance, and measure sustainability benefits.
 
-> This portfolio project is inspired by a real-world beverage distribution analytics implementation. All data, company names, customer information, identifiers, and performance values used in this repository are synthetic.
+> This portfolio project is inspired by a real-world beverage distribution analytics implementation. All datasets, company names, customer information, identifiers, and sample analytical outputs in this repository are synthetic. Quantified business outcomes referenced in this case study reflect results from the real-world implementation that inspired the project and are not calculated from the synthetic portfolio dataset.
 
 ---
 
@@ -19,7 +19,7 @@ Distribution centers may use inconsistent delivery frequencies, route plans, and
 - Inconsistent service-level performance
 - Increased carbon emissions
 
-The platform centralizes operational data and provides standardized KPIs, root-cause analysis, and delivery-frequency recommendations.
+The platform centralizes operational data and provides standardized KPIs, root-cause analysis, cost-to-serve analysis, and delivery-frequency recommendations.
 
 ---
 
@@ -40,7 +40,7 @@ The platform centralizes operational data and provides standardized KPIs, root-c
 ## Core KPIs
 
 | Category | KPIs |
-|---|---|
+| --- | --- |
 | Service | OTIF, SLA, On-Time Delivery, Missed Deliveries |
 | Productivity | Cases per Hour, Cases per Stop, Stops, Driver Overtime |
 | Exceptions | Hotshots, Off-Day Deliveries |
